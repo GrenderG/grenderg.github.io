@@ -5,7 +5,7 @@ date:   2015-05-14 23:47:45
 description: Just my first post on my personal blog.
 categories:
 - helloworld
-permalink: sample-post
+permalink: hello-world
 ---
 
 Just my first post on my personal blog.
