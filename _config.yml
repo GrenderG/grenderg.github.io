@@ -4,7 +4,7 @@
 baseurl: /harmony
 
 # Site live URL
-url: http://grenderg.github.io
+url: http://grenderg.github.io/
 
 # Localhost 
 # url: http://127.0.0.1:4000  
@@ -19,7 +19,7 @@ harmony:
   author: # Author details
     name: Daniel Morales
     email: grenderg@gmail.com
-    url: http://grenderg.github.io
+    url: http://grenderg.github.io/
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-xxxx-x
