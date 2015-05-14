@@ -1,7 +1,7 @@
 # Harmony Jekyll theme general configurations 
 
 # Base URL
-baseurl: /harmony
+baseurl: http://grenderg.github.io
 
 # Site live URL
 url: http://grenderg.github.io
@@ -53,5 +53,5 @@ exclude:
 
 # Sass conversion configs
 sass:
-    sass_dir: /assets/css/_sass
+    sass_dir: assets/css/_sass
     style: :compressed
