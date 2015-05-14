@@ -1,60 +1,122 @@
-# Left
+# Harmony
 
-Left is a clean, whitespace-happy layout for [Jekyll](https://github.com/mojombo/jekyll).
+Harmony is a responsive jekyll theme. 
 
-This is designed to be an easy layout to modify for your own blog. It was
-extracted from [zachholman.com](http://zachholman.com/), which means it was
-battle-hardened from years of posting serious blog posts about emoji and swear
-words.
+- Build for jekyll 2.x
+- Support Google analytics and RSS feeds
+- Sass based styles
+- Browser support: IE 8+, Chrome, Safari and Firefox 
+- Fluidly responsive 
 
-You can see it live right here: <http://zachholman.com/left/>
+## Contents
 
-![Left](http://cl.ly/image/3S2r1p2C0E2B/content)
+- [Harmony](#harmony)
+- [About Jekyll](#about-jekyll)
+- [How to install/run](#how-to-installrun)
+- [Options/Usage](#optionsusage)
+  - [Header navigation links](#header-navigation-links)
+  - [Footer links](#footer-links)
+  - [Copyrights/Disclaimer statements](#copyrightsdisclaimer-statements)
+- [Screenshots](#screenshots)
+- [Feedback/Bugs/Suggestions](#feedbackbugssuggestions)
+- [Version history](#version-history)
+- [License](#license)
 
-## Installation
+## About jekyll 
 
-- Install Jekyll: `gem install jekyll`
-- [Fork this repository](https://github.com/holman/left/fork)
-- Clone it: `git clone https://github.com/YOUR-USER/left`
-- Run the jekyll server: `jekyll serve -w`
+[Jekyll](http://jekyllrb.com/) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
 
-You should have a server up and running locally at <http://localhost:4000>.
+## How to install/run
 
-## Customization
+1. [Fork](https://github.com/web-create/harmony/fork) this repository.
+2. Clone it: git clone https://github.com/YOUR-USERNAME/harmony.
+3. If you completely new to jekyll, please read more about [Jekyll](http://jekyllrb.com/) and [Github pages](https://help.github.com/articles/using-jekyll-with-pages).
+4. Change your directory into cloned repository. 
+5. Run `bundle install`
+6. Edit the _config.yml on root directory. Change `url` property to to 
+`http://127.0.0.1:4000` since you are going to run on localhost.
+7. Run the jekyll server by having: `jekyll serve --baseurl ''` or `rake preview`   
 
-Next you'll want to change a few things. Most of them can be changed directly in
-[_config.yml](https://github.com/holman/left/blob/gh-pages/_config.yml). That's
-where we'll pull your name, Twitter username, and things like that.
+Try to locate your browser at [http://localhost:4000](http://localhost:4000).
 
-There's a few other places that you'll want to change, too:
+Note: If you are a windows user please refer this nice website - http://jekyll-windows.juthilo.com/ by Julian Thilo to configure ruby + jekyll on windows.
 
-- [CNAME](https://github.com/holman/left/blob/gh-pages/CNAME): If you're using
-  this on GitHub Pages with a custom domain name, you'll want to change this
-  to be the domain you're going to use. All that should be in here is a
-  domain name on the first line and nothing else (like: `example.com`).
-- [favicon.ico](https://github.com/holman/left/blob/gh-pages/favicon.ico): This
-  is a smaller version of my gravatar for use as the icon in your browser's
-  address bar. You should change it to whatever you'd like.
-- [apple-touch-icon.png](https://github.com/holman/left/blob/gh-pages/apple-touch-icon.png):
-  Again, this is my gravatar, and it shows up in iOS and various other apps
-  that use this file as an "icon" for your site.
+## Options/Usage
 
-## Deployment
+Harmony theme has some customizable options. All the configuration details are 
+configured in `_config.yml` file under root of the harmony directory. 
 
-Left is designed to be deployed to [GitHub Pages](http://pages.github.com). It
-uses [repository metadata](https://help.github.com/articles/repository-metadata-on-github-pages)
-to generate some of your content, like your GitHub URL and avatar information (so you
-might not actually see it locally until you push it up to Pages).
+Feel free to change your `name`, `descriptionn`, `meta_description`, `author details`,
+`social media names` and `google analytics id` accordingly. 
 
-All you should have to do is rename your repository on GitHub to be
-`username.github.com`. Since everything is on the `gh-pages` branch, you
-should be able to see your new site at <http://username.github.io>.
+``` yml
+# Harmony theme configuration. Please change accordingly.
+harmony:
+  name: Harmony
+  # Little description about your site
+  description: Harmony is free responsive jekyll theme.
+  meta_description: Harmony is free responsive jekyll theme. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  basetheme: theme-base-01 # pre defined the{{ site.url | prepend: site.baseurl }}mes are darken, blue-water, reddish.
+  author: # Author details
+    name: Gayan Virajith
+    email: gayanvirajith@gmail.com
+    url: http://gayanvirajith.github.io
 
-## Licensing
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key: UA-xxxx-x
 
-This is [MIT](https://github.com/holman/left/blob/gh-pages/LICENSE) with no
-added caveats, so feel free to use this on your site without linking back to
-me or using a disclaimer or anything silly like that.
+  # Profile links, leave blank to ignore
+  social: 
+    github: gayanvirajith
+    twitter: gayanvirajith
+    facebook: gayanvirajith
+    gplus: +GayanVirajith
+    dribble: gayan
+    pinterest: 
+  # Toggle disclaimer in footer
+  show_disclaimer: true
+```
 
-If you'd like give me credit somewhere on your blog or tweet a shout out to
-[@holman](https://twitter.com/holman), well hey, I'll take it.
+### Includes 
+
+All the partial includes are under `_includes` directory.
+
+#### Header navigation links
+
+Feel free to add/edit links for your header in the file `header-links.html`.
+
+#### Footer links
+
+Customize your footer links by editing `_includes/footer-links.html`
+
+#### Copyrights/Disclaimer statements
+
+All the copyrights notes are under `_includes/footer.html`. Also note that you 
+can toggle on/off copyright note from front-end by setting up `show_disclaimer` 
+property in `_config.yml`. 
+
+### Screenshots
+![Home page screenshot](https://raw.githubusercontent.com/web-create/harmony/master/assets/css/images/harmony-web.jpg "Desktop screen")
+
+![Post page screenshot](https://raw.githubusercontent.com/web-create/harmony/master/assets/css/images/harmony-web-2.jpg "Post page screenshot")
+
+![Blog archive page screenshot](https://raw.githubusercontent.com/web-create/harmony/master/assets/css/images/harmony-web-3.jpg "Blog archive page screenshot")
+
+#### Feedback/Bugs/Suggestions 
+
+Please submit as [Github issuee](https://github.com/web-create/harmony/issues/new),
+I am happy to response back.
+
+Version history
+---------------
+
+| Version no. | Description  | Date |
+| --- | --- | --- |
+| 1.0 | Initial release | 9th September 2014 |
+| 1.0.1 | v1.0.1 with minor bug fix | 9th September 2014 |
+
+
+## License
+
+Free / Open sourced under the 
+[MIT](https://github.com/web-create/harmony/blob/master/LICENSE.md).
