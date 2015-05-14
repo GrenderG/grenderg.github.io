@@ -1,5 +1,5 @@
-name: Wangana
-description:  Jekyll theme
+name: GrenderG
+description:  Personal blog
 
 sass:
   sass_dir: assets/css/_sass
@@ -12,12 +12,12 @@ redcarpet:
 url: http://nadjetey.github.io/wangana
 permalink: /:year/:month/:title/
 owner:
-    name: #
-    twitter: #
-    github: #
+    name: Daniel Morales
+    twitter: GrenderG
+    github: GrenderG
     disqus_shortname: #
 
 ga_id: #
 ga_username: #
 
-timezone: Africa/Accra
+timezone: Spain
