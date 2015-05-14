@@ -13,7 +13,7 @@ url: http://grenderg.github.io
 harmony:
   name: GrenderG
   # Little description about your site
-  description: I'm Daniel Morales an this is my personal blog.
+  description: I'm Daniel Morales and this is my personal blog.
   meta_description: This is the personal blog of Daniel Morales, here you can find stuff about programming.
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
