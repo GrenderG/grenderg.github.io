@@ -1,23 +1,12 @@
-name: GrenderG
-description:  Personal blog
+markdown: rdiscount
+permalink: /posts/:title
+rdiscount:
+  extensions: [smart]
 
-sass:
-  sass_dir: assets/css/_sass
-  style: :compressed
+gems:
+  - jekyll-sitemap
 
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
-
-url: http://grenderg.github.io
-permalink: /:year/:month/:title/
-owner:
-    name: Daniel Morales
-    twitter: GrenderG
-    github: GrenderG
-    disqus_shortname: #
-
-ga_id: #
-ga_username: #
-
-timezone: Spain
+name: Zach Holman
+url: http://zachholman.com
+description: A fantastic blog that is fantastic.
+twitter: holman

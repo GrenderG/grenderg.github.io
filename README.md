@@ -1,45 +1,60 @@
-![favicon](https://raw.github.com/nadjetey/wangana/master/favicon.png) Wangana - Jekyll Theme
-==============
+# Left
 
-Wangana is responsive [Jekyll](http://jekyllrb.com/) theme, perfect for powering your GitHub hosted blog. Created with love by [nadjetey](https://twitter.com/_nadjetey). 
+Left is a clean, whitespace-happy layout for [Jekyll](https://github.com/mojombo/jekyll).
 
-* Live demo [here](http://nadjetey.github.io/wangana/)
-* See wangana [elsewhere](http://nadjetey.github.io)
+This is designed to be an easy layout to modify for your own blog. It was
+extracted from [zachholman.com](http://zachholman.com/), which means it was
+battle-hardened from years of posting serious blog posts about emoji and swear
+words.
 
-## Screenshot
-![screenshot](https://raw.github.com/nadjetey/wangana/master/assets/images/wangana.png)
+You can see it live right here: <http://zachholman.com/left/>
 
-## Contributing
-1. Fork the theme ( https://github.com/nadjetey/wangana/fork ) The `master` branch is for development and pull requests. The `gh-pages` branch is for the demo page; don't bother.
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+![Left](http://cl.ly/image/3S2r1p2C0E2B/content)
 
-## Issues
-[Open](https://github.com/nadjetey/wangana/issues/new) issues if you run into trouble or have suggestions. Pull Requests always welcome.
+## Installation
 
-## Installation & Usage
-1 > [Download](https://github.com/nadjetey/wangana/archive/master.zip) package
+- Install Jekyll: `gem install jekyll`
+- [Fork this repository](https://github.com/holman/left/fork)
+- Clone it: `git clone https://github.com/YOUR-USER/left`
+- Run the jekyll server: `jekyll serve -w`
 
-2 > Fill in the details of the configuration file (/_config.yml) by uncommenting the differents and edit to taste
-Edit: _config.yml (general options), main.css (theme colors & fonts)
-``` bat
-wangana/
-├── _config.yml
-├── _assets/
-    ├── _scss/
-        ├── main.scss
-```
+You should have a server up and running locally at <http://localhost:4000>.
 
-3 > Run locally with the following commands while in the root directory and view in a browser at localhost:4000
-``` bat
-$ jekyll build
-# Compile and build site files
+## Customization
 
-$ jekyll serve --watch
-# Serve site locally
-```
+Next you'll want to change a few things. Most of them can be changed directly in
+[_config.yml](https://github.com/holman/left/blob/gh-pages/_config.yml). That's
+where we'll pull your name, Twitter username, and things like that.
 
-## Copyright & License
-The MIT License (MIT), Copyright (c) 2014 Nii Adjetey Sowah. [Read full document.](LICENSE)
+There's a few other places that you'll want to change, too:
+
+- [CNAME](https://github.com/holman/left/blob/gh-pages/CNAME): If you're using
+  this on GitHub Pages with a custom domain name, you'll want to change this
+  to be the domain you're going to use. All that should be in here is a
+  domain name on the first line and nothing else (like: `example.com`).
+- [favicon.ico](https://github.com/holman/left/blob/gh-pages/favicon.ico): This
+  is a smaller version of my gravatar for use as the icon in your browser's
+  address bar. You should change it to whatever you'd like.
+- [apple-touch-icon.png](https://github.com/holman/left/blob/gh-pages/apple-touch-icon.png):
+  Again, this is my gravatar, and it shows up in iOS and various other apps
+  that use this file as an "icon" for your site.
+
+## Deployment
+
+Left is designed to be deployed to [GitHub Pages](http://pages.github.com). It
+uses [repository metadata](https://help.github.com/articles/repository-metadata-on-github-pages)
+to generate some of your content, like your GitHub URL and avatar information (so you
+might not actually see it locally until you push it up to Pages).
+
+All you should have to do is rename your repository on GitHub to be
+`username.github.com`. Since everything is on the `gh-pages` branch, you
+should be able to see your new site at <http://username.github.io>.
+
+## Licensing
+
+This is [MIT](https://github.com/holman/left/blob/gh-pages/LICENSE) with no
+added caveats, so feel free to use this on your site without linking back to
+me or using a disclaimer or anything silly like that.
+
+If you'd like give me credit somewhere on your blog or tweet a shout out to
+[@holman](https://twitter.com/holman), well hey, I'll take it.
