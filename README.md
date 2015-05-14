@@ -1,23 +1,45 @@
-# Minimal Mistakes
+![favicon](https://raw.github.com/nadjetey/wangana/master/favicon.png) Wangana - Jekyll Theme
+==============
 
-**[Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes)** is a two column responsive Jekyll theme perfect for powering your GitHub hosted blog. 
+Wangana is responsive [Jekyll](http://jekyllrb.com/) theme, perfect for powering your GitHub hosted blog. Created with love by [nadjetey](https://twitter.com/_nadjetey). 
 
-## Minimal Mistakes is all about:
+* Live demo [here](http://nadjetey.github.io/wangana/)
+* See wangana [elsewhere](http://nadjetey.github.io)
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
+## Screenshot
+![screenshot](https://raw.github.com/nadjetey/wangana/master/assets/images/wangana.png)
 
-![screenshot of Minimal Mistakes theme](http://mmistakes.github.io/minimal-mistakes/images/mm-theme-post-600.jpg)
+## Contributing
+1. Fork the theme ( https://github.com/nadjetey/wangana/fork ) The `master` branch is for development and pull requests. The `gh-pages` branch is for the demo page; don't bother.
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
 
-See a [live version of Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/) hosted on GitHub.
+## Issues
+[Open](https://github.com/nadjetey/wangana/issues/new) issues if you run into trouble or have suggestions. Pull Requests always welcome.
 
-## Getting Started
+## Installation & Usage
+1 > [Download](https://github.com/nadjetey/wangana/archive/master.zip) package
 
-Minimal Mistakes takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
+2 > Fill in the details of the configuration file (/_config.yml) by uncommenting the differents and edit to taste
+Edit: _config.yml (general options), main.css (theme colors & fonts)
+``` bat
+wangana/
+├── _config.yml
+├── _assets/
+    ├── _scss/
+        ├── main.scss
+```
 
-To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/minimal-mistakes/theme-setup/) for more information.
+3 > Run locally with the following commands while in the root directory and view in a browser at localhost:4000
+``` bat
+$ jekyll build
+# Compile and build site files
+
+$ jekyll serve --watch
+# Serve site locally
+```
+
+## Copyright & License
+The MIT License (MIT), Copyright (c) 2014 Nii Adjetey Sowah. [Read full document.](LICENSE)

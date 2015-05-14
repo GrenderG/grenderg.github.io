@@ -1,28 +1,17 @@
 ---
-sitemap: false
 ---
+//Last updated 17-03-2015 by nadjetey @12.15am
+/* configurations */
+$primary-color: #F3F8FF;
+$lnk-color: #afafaf;
+$lnk-highlight-color: #333;
 
-/*
- *
- *  Minimal Mistakes
- *
- *  Designer: Michael Rose
- *  Twitter: http://twitter.com/mmistakes
- *
-*/
-
-// Partials
-@import "variables";
-@import "grid";
-@import "mixins";
-@import "normalize";
+/* IMPORT CSS FILES */
+// base css
 @import "site";
-@import "typography";
-@import "pygments";
-@import "coderay";
-@import "elements";
-@import "forms";
-@import "page";
-@import "vendor/font-awesome/font-awesome";
-@import "vendor/magnific-popup/magnific-popup";
-//@import "vendor/google/fonts";
+// syntax highlighting
+@import "syntax";
+// bootstrap
+@import "bootstrap.min";
+// fontawesome icons
+@import "font-awesome.min";
