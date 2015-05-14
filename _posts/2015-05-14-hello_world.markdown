@@ -2,13 +2,13 @@
 layout: post
 title:  "Hello World!"
 date:   2015-05-14 23:47:45
-description: Just my first post on my personal blog.
+description: Just the first post of my personal blog.
 categories:
 - helloworld
 permalink: hello-world
 ---
 
-Just my first post on my personal blog.
+Just the first post of my personal blog.
 
 ___
 
