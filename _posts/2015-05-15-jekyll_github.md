@@ -37,7 +37,7 @@ A lot of people thinks that the "catch-all" solution of paying more for a web ho
 Because Jekyll uses static files, if you want to rent a hosting you won't need server-side software support.
 
 ##Github comes to save us
-I love Github, but if you are not fall in love with it, you'll be now:
+I love Github, but if you are not in love with it, you'll be now:
 Github offers us unlimited free hosting (it works like a normal repo). You can also get a domain and use it with your Github hosting.
 Great, uh?
 
