@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-![Me](/assets/image/profile.jpg) Hi, I am Daniel Morales, a developer (Android and iOS) based on Spain. 
+![Me](/assets/image/profile.png) Hi, I am Daniel Morales, a developer (Android and iOS) based on Spain. 
 
 I have worked as Android and iOS developer in [Mobilendo][mb] but now
 I am still studying a bit more and doing some stuff as a freelancer.
