@@ -9,11 +9,6 @@ permalink: "hello-world"
 published: true
 ---
 
-
-Just the first post of my personal blog.
-
-___
-
 {% highlight java %}
 System.out.println("Hello World!");
 {% endhighlight %}
