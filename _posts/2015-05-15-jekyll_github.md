@@ -27,9 +27,9 @@ The loading of static files places a tiny amount of load data on a server, it's 
 So, the absence of dinamic files makes your site -a bit more- secure.
 
 ##Lots of open templates!
-Seriously, not all of us are good designers... Let's take some open stuff to make our website look a bit more pretty! Just google a bit and you will found tons of templates.
+Seriously, not all of us are good designers... Let's take some open stuff to make our website look a bit more pretty! Just google a bit and you will find tons of templates.
 
-##Plugin update, theme update, _my blog works slowly_...
+##Plugin updates, theme updates, _my blog works slowly_...
 I'm not going to say anything, believe me, go Jekyll.
 
 ##Forget all about paying abusive hostings
