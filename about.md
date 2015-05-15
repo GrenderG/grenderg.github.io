@@ -6,7 +6,7 @@ published: true
 ---
 
 
-![Me]({{site.baseurl}}//assets/image/profile.png)Hi, I am Daniel Morales, a developer (Android and iOS) based on Spain. 
+![Me]({{site.baseurl}}/assets/image/profile.png)Hi, I am Daniel Morales, a developer (Android and iOS) based on Spain. 
 
 I have worked as Android and iOS developer in [Mobilendo][mb] but now
 I am still studying a bit more and doing some stuff as a freelancer.
