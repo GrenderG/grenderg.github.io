@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hello World!"
-date: {}
+date: 2015-05-14 23:47:00
 description: Just the first post of my personal blog.
 categories: 
   - helloworld
