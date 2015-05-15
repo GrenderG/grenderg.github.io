@@ -11,7 +11,7 @@ permalink: "overlapping-circles"
 published: true
 ---
 
-Let our snippet section begun with some fresh Java (Android focused) code here! If you want to get the positions of n-overlapping circles like so:
+Let our snippet section begin with some fresh Java (Android focused) code here! If you want to get the positions of n-overlapping circles like so:
 
 ![snippet1](/assets/image/snippet1.png)
 
