@@ -2,10 +2,10 @@
 published: true
 layout: post
 title: Fall in love with Jekyll + Github
-date: {}
+date: null
 description: If you read this you will automatically fall in love with them.
 categories: 
-  - "jekyll,"
+  - jekyll
   - github
 permalink: "jekyll-github"
 ---
