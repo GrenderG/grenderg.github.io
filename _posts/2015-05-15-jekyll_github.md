@@ -44,9 +44,9 @@ Great, uh?
 You're already in love with them, aren't you? ![heart](/assets/image/heart.png)
 
 More info about Jekyll and Github hosting here:
-:[Github pages](https://pages.github.com/)
-:[Jekyll](http://jekyllrb.com/)
-:[Getting started with git](http://rogerdudler.github.io/git-guide/)
+: [Github pages](https://pages.github.com/)
+: [Jekyll](http://jekyllrb.com/)
+: [Getting started with git](http://rogerdudler.github.io/git-guide/)
 
 
 
