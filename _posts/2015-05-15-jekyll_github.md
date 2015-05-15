@@ -11,7 +11,7 @@ permalink: "jekyll-github"
 ---
 
 
-I have been using Wordpress for a year and it's not a _bad guy_ but there are a few reasons for me to change Wordpress by Jekyll.
+I have been using Wordpress for a year and it's not a *bad guy* but there are a few reasons for me to change Wordpress by Jekyll.
 
 ##Jekyll has everything -and only what- you need 
 Jekyll is simple as breathing, you won't become tired of searching what you need in an ocean of options.
@@ -19,7 +19,7 @@ You can keep or create the things that you need and get rid of what you don't.
 
 ##Your website online in less than 10 minutes
 I'm not exaggerating, actually you can have your website online in less than 10 minutes, believe me.
-You just need to follow some _getting started_ guide and your website will be done.
+You just need to follow some *getting started* guides and your website will be done.
 
 ##Goodbye server-side things!
 Yes, Jekyll works with static files (well ordered static files, though) so you won't need any database, php code and so on.
