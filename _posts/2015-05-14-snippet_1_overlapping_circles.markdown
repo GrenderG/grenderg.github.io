@@ -11,10 +11,6 @@ permalink: "overlapping-circles"
 published: true
 ---
 
-{% highlight java %}
-System.out.println("Hello World!");
-{% endhighlight %}
-
 Let our snippet section begun with some fresh Java (Android focused) code here! If you want to get the position of n-overlapping circles position like so:
 
 ![snippet1](/assets/image/snippet1.png)
@@ -33,9 +29,9 @@ public int[] getCirclePositions(int radius, int viewWidth, int items){
 }
 {% endhighlight %}
 
-: **radius:** Radius of each circle.
-: **viewWidth:** Total width of the view where circles will be placed.
-: **items:** Total of circles.
+**radius:** Radius of each circle.
+**viewWidth:** Total width of the view where circles will be placed.
+**items:** Total of circles.
 
 ###What does it returns?
 An int array containing the starting position where each circle should be placed.
