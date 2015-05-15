@@ -41,7 +41,7 @@ I love Github, but if you are not fall in love with it, you'll be now:
 Github offers us unlimited free hosting (it works like a normal repo). You can also get a domain and use it with your Github hosting.
 Great, uh?
 
-You're already in love with them, aren't you? <img src="/assets/image/heart.png" alt="heart">
+You're already in love with them, aren't you? ![heart](/assets/image/heart.png)
 
 More info about Jekyll and Github hosting here:
 :[Github pages](https://pages.github.com/)
