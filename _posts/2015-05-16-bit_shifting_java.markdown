@@ -30,7 +30,7 @@ int bShiftDiv = 128 >> 5;
 
 Magic? Nah, you can try it, both operations will return the same: 4.
 
-###What has just happened?
+###What just happened?
 Okay, 128 in binary is 100000000.
 <table>
     <tr>
