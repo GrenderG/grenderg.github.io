@@ -32,6 +32,27 @@ Magic? Nah, you can try it, both operations will return the same: 4.
 
 ###What has just happened?
 Okay, 128 in binary is 100000000.
-| 128   | 64  | 32   | 16   | 8   | 4   | 2   | 1   | 0   |
-|:-----:|----:|:----:|:----:|:---:|:---:|:---:|:---:|:---:|
-| 1   	| 0   | 0    | 0    | 0   | 0   | 0   | 0   | 0   |
+<table>
+    <tr>
+        <td>128</td>
+        <td>64</td>
+        <td>32</td>
+        <td>16</td>
+        <td>8</td>
+        <td>4</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0</td>
+    </tr>
+        <tr>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+</table>
