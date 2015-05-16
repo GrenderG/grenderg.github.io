@@ -11,11 +11,11 @@ permalink: "is-service-running"
 published: true
 ---
 
-The second snippet is... *drum roll* How to know if a service is running in Android!
+The second snippet is... -drum roll- How to know if a service is running in Android!
 
 Check this:
 {% highlight java %}
-private boolean isMyServiceRunning(Class<?> serviceClass) {
+public boolean isMyServiceRunning(Class<?> serviceClass) {
     ActivityManager manager = (ActivityManager) getActivity().getSystemService(Context.ACTIVITY_SERVICE);
     for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)) {
         if (serviceClass.getName().equals(service.service.getClassName())) {
