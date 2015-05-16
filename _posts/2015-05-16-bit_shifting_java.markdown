@@ -23,3 +23,15 @@ Imagine that you want to divide 128 by 32. You usually will do it like so:
 {% highlight java %}
 int div = 128 / 32;
 {% endhighlight %}
+It's working, but if you want to optimize it, just use bit shift:
+{% highlight java %}
+int bShiftDiv = 128 >> 5;
+{% endhighlight %}
+
+Magic? Nah, you can try it, both operations will return the same: 4.
+
+###What has just happened?
+Okay, 128 in binary is 100000000.
+| 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 | 0 |
+|-----|----|----|----|---|---|---|---|---|
+| 1   | 0  | 0  | 0  | 0 | 0 | 0 | 0 | 0 |
