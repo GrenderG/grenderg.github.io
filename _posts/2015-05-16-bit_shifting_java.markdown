@@ -56,8 +56,8 @@ Okay, 128 in binary is 100000000.
         <td>0</td>
     </tr>
 </table>
-If you bit shift it to the right (division, >>) 5 positions... What number do you get in binary? 4!
------------------------------------------->
+If you bit shift it to the right (division, >>) 5 positions... What number do you get in binary? 1000, and 1000 is... 4!
+----------------------------------------------------------------------------------------------------------------------->
 <table>
     <tr>
         <td>0</td>
