@@ -90,14 +90,14 @@ If you bit shift it to the right (division, >>) 5 positions... What number do yo
     </tr>
 </table>
 
-As you see, the basics are so easy to understand. You can do the same if you cant to multiply values, instead of shifting bits to the right, you just have to shift them to the left (<<).
+As you see, the basics are so easy to understand. You can do the same if you want to multiply values, instead of shifting bits to the right, you just have to shift them to the left (<<).
 {% highlight java %}
 int bShiftDiv = 4 << 5;
 {% endhighlight %}
 That operation will return 128.
 <table>
     <tr>
-        <td><- 5</td>
+        <td>5</td>
         <td><- 4</td>
         <td><- 3</td>
         <td><- 2</td>
@@ -127,4 +127,7 @@ That operation will return 128.
         <td>0</td>
     </tr>
 </table>
+
+###Conclusion
+Hope you have learn a lot reading this and I encourage you to use bit shifting (you can do it in almost all languages and it's the same!) in order to decrease resource consumption in your software.
 
