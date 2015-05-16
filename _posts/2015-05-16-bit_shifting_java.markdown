@@ -90,3 +90,41 @@ If you bit shift it to the right (division, >>) 5 positions... What number do yo
     </tr>
 </table>
 
+As you see, the basics are so easy to understand. You can do the same if you cant to multiply values, instead of shifting bits to the right, you just have to shift them to the left (<<).
+{% highlight java %}
+int bShiftDiv = 4 << 5;
+{% endhighlight %}
+That operation will return 128.
+<table>
+    <tr>
+        <td><- 5</td>
+        <td><- 4</td>
+        <td><- 3</td>
+        <td><- 2</td>
+        <td><- 1</td>
+        <td><- 0</td>
+    </tr>
+    <tr>
+        <td>128</td>
+        <td>64</td>
+        <td>32</td>
+        <td>16</td>
+        <td>8</td>
+        <td>4</td>
+        <td>2</td>
+        <td>1</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+</table>
+
