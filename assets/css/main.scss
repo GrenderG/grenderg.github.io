@@ -55,7 +55,7 @@ header.main-header2 {
   color: $base-00;
   border-top: 5px $base-00 solid;
 
-  h1, h2 { text-align: left; color: inherit;}
+  h1, h2 { text-align: center; color: inherit;}
   a { 
     color: inherit;
     &:hover, &:active, &:focus {
