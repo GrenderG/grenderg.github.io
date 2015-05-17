@@ -8,7 +8,7 @@
         <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% else %}{{ site.harmony.meta_description }}{% endif %}">
         <link rel="canonical" 
         href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <!-- Harmony styles -->
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css">
 
@@ -46,7 +46,7 @@
                 {% include footer.html %}
             </p>
         </footer>
-        <!--<script type="text/javascript">
+        <script type="text/javascript">
           /* To avoid render blocking css */
           var cb = function() {
             var l = document.createElement('link'); l.rel = 'stylesheet';
@@ -57,7 +57,7 @@
               webkitRequestAnimationFrame || msRequestAnimationFrame;
           if (raf) raf(cb);
           else window.addEventListener('load', cb);
-        </script>-_>
+        </script>
         <!-- jQuery -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- When no internet load JQuery from local -->
