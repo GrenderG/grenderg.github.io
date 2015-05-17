@@ -51,6 +51,13 @@ body {
     }
 }
 
+.header-container {
+	width: 90%;
+	max-width: $M;
+	margin: 0 auto;
+	text-align: left;
+}
+
 .wc-img-replace { /* replace text with a background-image */
   display: inline-block;
   overflow: hidden;
