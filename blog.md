@@ -2,7 +2,7 @@
 layout: default
 title: Blog archive
 ---
-<div class="page-content wc-container">
+<div id="archive_container" class="page-content wc-container">
   <h1>Blog Archive</h1>  
   {% for post in site.posts %}
   	{% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
@@ -12,6 +12,6 @@ title: Blog archive
     		<ul class="posts">
     		{% capture year %}{{currentyear}}{% endcapture %} 
   		{% endif %}
-    <li id="post_list"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
 {% endfor %}
 </div>
