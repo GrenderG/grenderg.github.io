@@ -51,50 +51,6 @@ body {
     }
 }
 
-header.main-header2 {
-  color: $base-00;
-  border-top: 5px $base-00 solid;
-
-  h1, h2 { text-align: center; color: inherit;}
-  a { 
-    color: inherit;
-    &:hover, &:active, &:focus {
-      border-bottom-color: transparent;
-    }
-  }
-
-  ul {
-    width: 100%;
-    text-align: center;
-    padding: 15px;
-  }
-  ul li {       
-    display: inline-block;
-    position:relative;
-    color: $base-08;
-  }
-
-  ul li span {
-    float: left;
-    display: inline-block;
-    width: 15px;
-  }
-
-  ul li a { 
-    display:inline-block;
-    color: inherit;
-    border-bottom: 2px transparent solid;
-    padding-bottom:5px;
-    @include transition(all, .2s);
-    @include MQ(M) {
-      @include font-size(18px);
-    }
-    &:hover, &:focus, &:active {
-      border-bottom-color: inherit;
-    }
-  }
-}
-
 .wc-img-replace { /* replace text with a background-image */
   display: inline-block;
   overflow: hidden;
