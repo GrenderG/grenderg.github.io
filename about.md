@@ -13,7 +13,7 @@ I am still studying a bit more and doing some stuff as a freelancer.
 
 ### Contact me
 
-Find me on [Google play][gplay] / [Github][github] / [Twitter][Twitter]
+Find me on [Google play][gplay] / [Github][github] / [Twitter][Twitter] or send me an email to **grenderg@gmail.com**.
 
 
 [mb]: http://mobilendo.com/
