@@ -191,8 +191,8 @@ header.main-header, footer.main-footer {
 
 header.main-header {
   color: $base-00;
-  border-top: 5px $base-00 solid;
-
+  margin-top: 10px;
+  
   h1, h2, p { text-align: center; color: inherit;}
   a { 
     color: inherit;
@@ -747,4 +747,42 @@ th {
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: $base-05;
+}
+
+/*------------------------------------
+
+  Finder
+
+------------------------------------*/
+.topBorderBar {
+  height: 5px;
+  background-color:#2b2b2b;
+  width: 100%;
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+}
+
+.topBorderBar div {
+  float: right;
+  background-color:#2b2b2b;
+  padding: 5px 4px 6px 6px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  
+}
+
+.topBorderBar div span {
+  cursor: pointer;
+  color: #da4939;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.topBorderBar div span:hover {
+  text-decoration: underline;
 }

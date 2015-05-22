@@ -15,7 +15,15 @@
 
         <!-- Modernizr js -->
         <script async src="{{ site.baseurl }}/assets/js/modernizr.js"></script>    
-
+		
+        <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>   
+        <script src="{{ site.baseurl }}/assets/js/lmwebfinder.js"></script>   
+		<script>
+		$(document).ready(function () {
+			original = document.getElementById('findIn').innerHTML; //original text
+				lastMatch = 0; //initialize lastMatch as global var
+		});
+		</script>
         <!-- IE Fixes -->
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,6 +33,14 @@
         <![endif]-->        
     </head>
     <body class="{{ site.harmony.basetheme }}">
+		<div class="topBorderBar">	
+		{% if page.title == "Blog archive" %}
+            <div> 
+                <input name="key" type="text" id="finder" placeholder="Search...">
+                <span onclick="search(document.getElementById('finder').value);">&gt;</span>
+            </div>
+		{% endif %}
+		</div>
         <header class="main-header">
             <div class="wc-container">
                 <!--<h1><a href="{{ site.baseurl }}/">{{ site.harmony.name }}</a></h1>-->
