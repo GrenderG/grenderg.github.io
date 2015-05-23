@@ -35,8 +35,8 @@
 		<div class="topBorderBar">	
 		{% if page.title == "Blog archive" %}
             <div> 
-                <input name="key" type="text" id="finder" placeholder="Search...">
-                <input type="button" value="Find Next" onclick="search(document.getElementById('finder').value);">
+                <input name="key" type="text" id="finder" onkeydown="pressKey(this.value, event)" placeholder="Search...">
+                <input type="button" value="Find Next" onkeydown="search(document.getElementById('finder').value);">
             </div>
 		{% endif %}
 		</div>
