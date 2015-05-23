@@ -11,7 +11,7 @@
 
 primaryColor = "#FFFF00"; //color for all matches
 secondaryColor = "#FF0000"; //color for focused matched
-findId = "findId"; //The text you want to search in must be inside an element with this id
+findId = "findIn"; //The text you want to search in must be inside an element with this id
 
 function pressKey(textToFind, e) {
     var evt = e ? e : event;
