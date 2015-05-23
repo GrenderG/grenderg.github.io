@@ -13,8 +13,8 @@
  * CONFIGURARTION
  */
 
-primaryColor = "#FFF9C4"; //color for all matches
-secondaryColor = "#FFE0B2"; //color for focused matched
+primaryColor = "#FFFF00"; //color for all matches
+secondaryColor = "#FF0000"; //color for focused matched
 findId = "findIn"; //The text you want to search in must be inside an element with this id
 
 /*
@@ -95,4 +95,9 @@ function search(textToFind) {
 
 function reset() {
     document.getElementById(findId).innerHTML = original; //return the text to original version
+}
+
+function clean(searchInput) {
+    searchInput.value = ""; //clears search input
+    reset(); //return the text to original verion
 }

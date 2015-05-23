@@ -36,9 +36,10 @@
     <body class="{{ site.harmony.basetheme }}">
 		<div class="topBorderBar">	
 		{% if page.title == "Blog archive" %}
-            <div> 
+            <div class="searchBarContainer"> 
                 <input name="key" type="text" id="finder" onkeydown="pressKey(this.value, event)" placeholder="Search...">
 				<span onclick="search(document.getElementById('finder').value);" title="Find next">&gt;</span>
+				<div class="cleanSearchInput" onclick="clean(document.getElementById('finder'));" title="Clear text">x</div>
             </div>
 		{% endif %}
 		</div>
