@@ -68,11 +68,10 @@ function search(textToFind) {
 
     var position = document.getElementsByClassName("goFind")[lastMatch].offsetTop; //it captures pixels between top of the page and the showing match
     document.getElementsByClassName("goFind")[lastMatch].style.backgroundColor = secondaryColor; //changes the color of the actual match in order to diffenciate from others
-	if (scrollTop != position){
-		    $('body,html').animate({//animates body to go to match position
-				scrollTop: position - 50 + 'px'
-			}, 600);
-	}
+
+    $('body,html').animate({//animates body to go to match position
+	scrollTop: position - 50 + 'px'
+    }, 600);
 
     lastMatch++; //increments lastMatch for the next time we click in find button
 }
