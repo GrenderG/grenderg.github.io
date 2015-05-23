@@ -9,8 +9,8 @@
  * *******************************************************
  */
 
-primaryColor = "#FFFF00"; //color for all matches
-secondaryColor = "#FF0000"; //color for focused matched
+primaryColor = "#FFE0B2"; //color for all matches
+secondaryColor = "#FFCC80"; //color for focused matched
 findId = "findIn"; //The text you want to search in must be inside an element with this id
 
 function pressKey(textToFind, e) {
