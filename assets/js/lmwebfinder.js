@@ -9,7 +9,7 @@
  * *******************************************************
  */
 
-primaryColor = "#FFF3E0"; //color for all matches
+primaryColor = "#FFF59D"; //color for all matches
 secondaryColor = "#FFCC80"; //color for focused matched
 findId = "findIn"; //The text you want to search in must be inside an element with this id
 
