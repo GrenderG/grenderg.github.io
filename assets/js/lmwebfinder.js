@@ -7,9 +7,20 @@
  * *******************************************************
  *              NEEDS JQUERY TO WORK!!!
  * *******************************************************
- * 
- * The text you want to search in must be inside an element with id: "findIn"
  */
+
+primaryColor = "#FFFF00"; //color for all matches
+secondaryColor = "#FF0000"; //color for focused matched
+findId = "findId"; //The text you want to search in must be inside an element with this id
+
+function pressKey(textToFind, e) {
+    var evt = e ? e : event;
+    var key = window.Event ? evt.which : evt.keyCode; //return key code from pressed key
+    
+    if (key === 13) { //"enter" key
+	search(textToFind);
+    }
+}
 
 function search(textToFind) {
 
@@ -21,7 +32,7 @@ function search(textToFind) {
     var info3;
     var pattern = new RegExp(textToFind + '(?!\}\})', 'gim');
     var space = /^\s$/;
-    var searhIn = document.getElementById('findIn').getElementsByTagName('*');
+    var searhIn = document.getElementById(findId).getElementsByTagName('*');
     var matches = 0;
 
     for (var i = 0; i < searhIn.length; i++) { //loop for all nodes in list
@@ -45,7 +56,7 @@ function search(textToFind) {
 
 	}
     }
-    document.getElementById('findIn').innerHTML = document.getElementById('findIn').innerHTML.split('}}').join('</span>').split('{{').join('<span class="goFind" style="background-color: yellow">'); //replace {{ and }} with span tag with a background color to mark matches
+    document.getElementById('findIn').innerHTML = document.getElementById(findId).innerHTML.split('}}').join('</span>').split('{{').join('<span class="goFind" style="background-color: ' + primaryColor + '">'); //replace {{ and }} with span tag with a background color to mark matches
 
     if (matches === 0) { //if there are not any coincidence return false to prevent movement
 	return;
@@ -56,7 +67,7 @@ function search(textToFind) {
     }
 
     var position = document.getElementsByClassName("goFind")[lastMatch].offsetTop; //it captures pixels between top of the page and the showing match
-    document.getElementsByClassName("goFind")[lastMatch].style.backgroundColor = "#272935"; //changes the color of the actual match in order to diffenciate from others
+    document.getElementsByClassName("goFind")[lastMatch].style.backgroundColor = secondaryColor; //changes the color of the actual match in order to diffenciate from others
 
     $('body,html').animate({//animates body to go to match position
 	scrollTop: position - 50 + 'px'
@@ -66,5 +77,5 @@ function search(textToFind) {
 }
 
 function reset() {
-    document.getElementById('findIn').innerHTML = original; //return the text to original version
+    document.getElementById(findId).innerHTML = original; //return the text to original version
 }
