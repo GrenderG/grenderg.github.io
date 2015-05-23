@@ -36,7 +36,7 @@
 		{% if page.title == "Blog archive" %}
             <div> 
                 <input name="key" type="text" id="finder" onkeydown="pressKey(this.value, event)" placeholder="Search...">
-                <input type="button" value="Find Next" onkeydown="search(document.getElementById('finder').value);">
+				<span onclick="search(document.getElementById('finder').value);">&gt;</span>
             </div>
 		{% endif %}
 		</div>
