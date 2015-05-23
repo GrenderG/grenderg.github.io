@@ -36,7 +36,7 @@
 		{% if page.title == "Blog archive" %}
             <div> 
                 <input name="key" type="text" id="finder" placeholder="Search...">
-                <span onclick="search(document.getElementById('finder').value);">&gt;</span>
+                <input type="button" value="Find Next" onclick="search(document.getElementById('finder').value);">
             </div>
 		{% endif %}
 		</div>
