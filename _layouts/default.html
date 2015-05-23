@@ -17,13 +17,12 @@
         <script async src="{{ site.baseurl }}/assets/js/modernizr.js"></script>    
 		
         <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>   
-        <script src="{{ site.baseurl }}/assets/js/lmwebfinder.js"></script>   
-		<script>
-		$(document).ready(function () {
-			original = document.getElementById('findIn').innerHTML; //original text
-				lastMatch = 0; //initialize lastMatch as global var
-		});
-		</script>
+        <script src="{{ site.baseurl }}/assets/js/lmwebfinder.js"></script>
+		{% if page.title == "Blog archive" %}		
+			<script>
+				window.onload = function () { original = document.getElementById('findIn').innerHTML; lastMatch = 0; };
+			</script>
+		{% endif %}
         <!-- IE Fixes -->
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
