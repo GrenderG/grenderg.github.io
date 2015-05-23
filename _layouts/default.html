@@ -20,7 +20,9 @@
         <script src="{{ site.baseurl }}/assets/js/lmwebfinder.js"></script>
 		{% if page.title == "Blog archive" %}		
 			<script>
-				window.onload = function () { original = document.getElementById('findIn').innerHTML; lastMatch = 0; };
+				window.onload = function () { original = document.getElementById('findIn').innerHTML; 
+				window.addEventListener("scroll", stopAnimation);
+				};
 			</script>
 		{% endif %}
         <!-- IE Fixes -->
