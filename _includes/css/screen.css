@@ -115,6 +115,27 @@ nav h1, nav h2 {
   padding-top: 15px;
 }
 
+.circular_logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+}
+
+.browser-menu {
+  border-top: 1px dotted #ddd;
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+.mobile-menu {
+  margin-top: 7px;
+  border-bottom: 1px dotted #ddd;
+  padding-bottom: 7px;
+  margin-bottom: 15px;
+}
+
 #social {
   margin-bottom: 10px;
   font-size: 13px;
@@ -181,6 +202,10 @@ nav h1, nav h2 {
 }
 
 #home h2 {
+  color: {{ site.data.theme.highlight_color }};
+}
+
+#about h2 {
   color: {{ site.data.theme.highlight_color }};
 }
 

@@ -16,7 +16,7 @@
   <link rel="alternate" type="application/atom+xml" title="{{ site.data.theme.name }}" href="{{site.url}}/atom.xml" />
 
   <link rel="stylesheet" href="/assets/css/all.css">
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
   <div class="container">
@@ -24,6 +24,10 @@
       {% include sidebar.html %}
     </div>
 
+    <div class="mobile-menu">
+        <i class="fa fa-bars"></i>
+        <a href="{{ '/' }}">Home</a> | <a href="{{ '/about' }}">About</a>
+    </div>
     <div class="eleven columns content">
       {{ content }}
 

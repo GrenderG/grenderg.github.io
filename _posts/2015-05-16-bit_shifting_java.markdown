@@ -90,7 +90,7 @@ If you bit shift it to the right (division, >>) 5 positions... What number do yo
     </tr>
 </table>
 
-As you see, the basics are so easy to understand. You can do the same if you want to multiply values, instead of shifting bits to the right, you just have to shift them to the left (<<).
+As you can see, the basics are so easy to understand. You can do the same if you want to multiply values, instead of shifting bits to the right, you just have to shift them to the left (<<).
 {% highlight java %}
 int bShiftDiv = 4 << 5;
 {% endhighlight %}

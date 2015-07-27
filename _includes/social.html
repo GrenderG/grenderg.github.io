@@ -1,4 +1,4 @@
-Follow me:
+Find me in:
 <div id="stalker">
   {% if site.data.theme.social.github %}
   <a title="{{ site.data.theme.social.github }} on Github" href="https://github.com/{{ site.data.theme.social.github }}">
@@ -60,6 +60,12 @@ Follow me:
   {% if site.data.theme.social.gplus %}
   <a title="{{ site.data.theme.name }} on Google Plus" href="https://plus.google.com/{{ site.data.theme.social.gplus }}">
     <i class="fa fa-google-plus-square"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.theme.social.google_play %}
+  <a title="{{ site.data.social.google_play }} on Google Play" href="https://play.google.com/store/apps/developer?id={{ site.data.theme.social.google_play }}">
+    <i class="fa fa-play"></i>
   </a>
   {% endif %}
 </div>
