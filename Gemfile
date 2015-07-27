@@ -1,7 +1,3 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'rake' 
-
-gem 'github-pages'
-
-gem 'jekyll'
+gem "github-pages"

@@ -1,3 +1,11 @@
-{% if site.harmony.show_disclaimer %}
-	All content here is in <a href="http://creativecommons.org/publicdomain/zero/1.0/" target="_blank">public domain</a>. An attribution would be nice though.        
-{% endif %}
+<div class="disclaimer">
+  {% if site.data.theme.show_disclaimer %}
+  <p>
+    All content here is in public domain. An attribution would be nice though.
+  </p>
+  {% endif %}
+
+  <p>
+    © {{ site.data.theme.name }}, 2015 &mdash; proudly built with <a href="http://jekyllrb.com/">Jekyll</a>. 
+  </p>
+</div>

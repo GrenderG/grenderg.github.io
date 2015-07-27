@@ -1,90 +1,38 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.harmony.name }}{% endif %}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">        
-        <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% else %}{{ site.harmony.meta_description }}{% endif %}">
-        <link rel="canonical" 
-        href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-		
-        <!-- Harmony styles -->
-        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.data.theme.name }} - {{ page.title }}</title>
+  <meta name="author" content="{{ site.data.theme.name }}" />
+  <meta name="description" content="The blog of {{ site.data.theme.name }}" />
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}" />
 
-        <!-- Modernizr js -->
-        <script async src="{{ site.baseurl }}/assets/js/modernizr.js"></script>    
-		
-        <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>   
-        <script src="{{ site.baseurl }}/assets/js/lmwebfinder.js"></script>
-		{% if page.title == "Blog archive" %}		
-			<script>
-				window.onload = function () { original = document.getElementById('findIn').innerHTML; 
-				window.addEventListener("scroll", stopAnimation);
-				};
-			</script>
-		{% endif %}
-        <!-- IE Fixes -->
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->        
-    </head>
-    <body class="{{ site.harmony.basetheme }}">
-		<div class="topBorderBar">	
-		{% if page.title == "Blog archive" %}
-            <div class="searchBarContainer"> 
-                <input name="key" type="text" id="finder" onkeydown="pressKey(this.value, event)" placeholder="Search...">
-				<span onclick="search(document.getElementById('finder').value);" title="Find next">&gt;</span>
-				<!--<div class="cleanSearchInput" onclick="clean(document.getElementById('finder'));" title="Clear text">x</div>-->
-            </div>
-		{% endif %}
-		</div>
-        <header class="main-header">
-            <div class="wc-container">
-                <!--<h1><a href="{{ site.baseurl }}/">{{ site.harmony.name }}</a></h1>-->
-				<h1><a href="{{ site.baseurl }}/"><span style="color: #da4939">{</span> {{ site.harmony.name }} <span style="color: #da4939">}</span></a></h1>
-                <p style="font-size: 125%;">{{ site.harmony.description }}</p>
-                {% include header-links.html %}
-				<hr/>
-            </div>
-        </header>
-        {{ content }}
-        <footer class="main-footer">
-            <div class="wc-container">
-                <div class="column one">
-                    {% include footer-links.html %}                    
-                </div>
-                <div class="column two">
-                    {% include social.html %}
-                </div>
-            </div>
-            <p class="wc-container disclaimer">
-                {% include footer.html %}
-            </p>
-        </footer>
-        <!--<script type="text/javascript">
-          /* To avoid render blocking css */
-          var cb = function() {
-            var l = document.createElement('link'); l.rel = 'stylesheet';
-            l.href = 'http://fonts.googleapis.com/css?family=Ubuntu+Mono&subset=latin';
-            var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-          };
-          var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-              webkitRequestAnimationFrame || msRequestAnimationFrame;
-          if (raf) raf(cb);
-          else window.addEventListener('load', cb);
-        </script>-->
-        <!-- jQuery -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <!-- When no internet load JQuery from local -->
-        <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/assets/js/jquery.min.js"><\/script>')</script>
-        <!-- Site js -->
-        <script src="{{ site.baseurl }}/assets/js/all.js"></script>
-        <!-- Google analytics  -->
-        {% include google-analytics.html %}
-    </body>        
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.data.theme.name }}" href="{{site.url}}/atom.xml" />
+
+  <link rel="stylesheet" href="/assets/css/all.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="four columns sidebar">
+      {% include sidebar.html %}
+    </div>
+
+    <div class="eleven columns content">
+      {{ content }}
+
+      <div class="footer">
+        {% include footer.html %}
+      </div>
+    </div>
+  </div>
+
+{% include analytics.html %}
+</body>
 </html>

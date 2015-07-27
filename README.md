@@ -1,122 +1,73 @@
-# Harmony
+# Lagom
 
-Harmony is a responsive jekyll theme. 
+> #### *Lagom* is a Swedish word with no direct English equivalent, meaning "just the right amount"
 
-- Build for jekyll 2.x
-- Support Google analytics and RSS feeds
-- Sass based styles
-- Browser support: IE 8+, Chrome, Safari and Firefox 
-- Fluidly responsive 
+Lagom, a [Jekyll][j] blog theme with just the right amount of style. 
 
-## Contents
+Extracted lovingly from [http://mdswanson.com][mds] for your enjoyment!
 
-- [Harmony](#harmony)
-- [About Jekyll](#about-jekyll)
-- [How to install/run](#how-to-installrun)
-- [Options/Usage](#optionsusage)
-  - [Header navigation links](#header-navigation-links)
-  - [Footer links](#footer-links)
-  - [Copyrights/Disclaimer statements](#copyrightsdisclaimer-statements)
-- [Screenshots](#screenshots)
-- [Feedback/Bugs/Suggestions](#feedbackbugssuggestions)
-- [Version history](#version-history)
-- [License](#license)
+* Responsive, based on [Skeleton][skeleton]
+* [Font Awesome][font-awesome] for icons
+* Open Sans from [Google web fonts][gfonts]
+* Built-in Atom feed
 
-## About jekyll 
+## Action Shots
+![](http://i.imgur.com/Pmzk4j1.png)
+![](http://i.imgur.com/CT2Xvug.png)
+![](http://i.imgur.com/XisjqW1.jpg)
 
-[Jekyll](http://jekyllrb.com/) is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+## Installation
 
-## How to install/run
+- [Fork this repository][fork]
+- Clone it: `git clone https://github.com/YOUR-USER/lagom`
+- Install the [GitHub Pages gem][pages] (includes Jekyll): `bundle install`
+- Run the jekyll server: `jekyll serve`
 
-1. [Fork](https://github.com/web-create/harmony/fork) this repository.
-2. Clone it: git clone https://github.com/YOUR-USERNAME/harmony.
-3. If you completely new to jekyll, please read more about [Jekyll](http://jekyllrb.com/) and [Github pages](https://help.github.com/articles/using-jekyll-with-pages).
-4. Change your directory into cloned repository. 
-5. Run `bundle install`
-6. Edit the _config.yml on root directory. Change `url` property to to 
-`http://127.0.0.1:4000` since you are going to run on localhost.
-7. Run the jekyll server by having: `jekyll serve --baseurl ''` or `rake preview`   
+You should have a server up and running locally at <http://localhost:4000>.
 
-Try to locate your browser at [http://localhost:4000](http://localhost:4000).
+## Customization
 
-Note: If you are a windows user please refer this nice website - http://jekyll-windows.juthilo.com/ by Julian Thilo to configure ruby + jekyll on windows.
+Next you'll want to change a few things. Most of them can be changed directly in
+[theme.yml][config]. That's where you can add your social links, change the accent
+color, stuff like that.
 
-## Options/Usage
+There's a few other places that you'll want to change, too:
 
-Harmony theme has some customizable options. All the configuration details are 
-configured in `_config.yml` file under root of the harmony directory. 
+- [CNAME][cname]: If you're using this on GitHub Pages with a custom domain name, 
+  you'll want to change this to be the domain you're going to use. All that should 
+  be in here is a domain name on the first line and nothing else (like: `example.com`).
+- [favicon.png][favicon]: This is the icon in your browser's address bar. You should 
+  change it to whatever you'd like.
+- [logo.png][logo]: A square-ish image that appears in the upper-left corner
 
-Feel free to change your `name`, `descriptionn`, `meta_description`, `author details`,
-`social media names` and `google analytics id` accordingly. 
+## Deployment
 
-``` yml
-# Harmony theme configuration. Please change accordingly.
-harmony:
-  name: Harmony
-  # Little description about your site
-  description: Harmony is free responsive jekyll theme.
-  meta_description: Harmony is free responsive jekyll theme. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-  basetheme: theme-base-01 # pre defined the{{ site.url | prepend: site.baseurl }}mes are darken, blue-water, reddish.
-  author: # Author details
-    name: Gayan Virajith
-    email: gayanvirajith@gmail.com
-    url: http://gayanvirajith.github.io
+You should deploy with [GitHub Pages][pages] - it's just easier.
 
-  # Google Analytics key, leave blank to ignore
-  google_analytics_key: UA-xxxx-x
+All you should have to do is rename your repository on GitHub to be
+`username.github.io`. Since everything is on the `gh-pages` branch, you
+should be able to see your new site at <http://username.github.io>.
 
-  # Profile links, leave blank to ignore
-  social: 
-    github: gayanvirajith
-    twitter: gayanvirajith
-    facebook: gayanvirajith
-    gplus: +GayanVirajith
-    dribble: gayan
-    pinterest: 
-  # Toggle disclaimer in footer
-  show_disclaimer: true
-```
+## Licensing
 
-### Includes 
+[MIT](https://github.com/swanson/lagom/blob/master/LICENSE) with no
+added caveats, so feel free to use this on your site without linking back to
+me or using a disclaimer or anything silly like that.
 
-All the partial includes are under `_includes` directory.
+## Contact
+I'd love to hear from you at [@_swanson][twitter]. Feel free to open issues if you
+run into trouble or have suggestions. Pull Requests always welcome.
 
-#### Header navigation links
-
-Feel free to add/edit links for your header in the file `header-links.html`.
-
-#### Footer links
-
-Customize your footer links by editing `_includes/footer-links.html`
-
-#### Copyrights/Disclaimer statements
-
-All the copyrights notes are under `_includes/footer.html`. Also note that you 
-can toggle on/off copyright note from front-end by setting up `show_disclaimer` 
-property in `_config.yml`. 
-
-### Screenshots
-![Home page screenshot](https://raw.githubusercontent.com/web-create/harmony/master/assets/css/images/harmony-web.jpg "Desktop screen")
-
-![Post page screenshot](https://raw.githubusercontent.com/web-create/harmony/master/assets/css/images/harmony-web-2.jpg "Post page screenshot")
-
-![Blog archive page screenshot](https://raw.githubusercontent.com/web-create/harmony/master/assets/css/images/harmony-web-3.jpg "Blog archive page screenshot")
-
-#### Feedback/Bugs/Suggestions 
-
-Please submit as [Github issuee](https://github.com/web-create/harmony/issues/new),
-I am happy to response back.
-
-Version history
----------------
-
-| Version no. | Description  | Date |
-| --- | --- | --- |
-| 1.0 | Initial release | 9th September 2014 |
-| 1.0.1 | v1.0.1 with minor bug fix | 9th September 2014 |
-
-
-## License
-
-Free / Open sourced under the 
-[MIT](https://github.com/web-create/harmony/blob/master/LICENSE.md).
+[j]: http://jekyllrb.com/
+[mds]: http://mdswanson.com
+[skeleton]: http://www.getskeleton.com/
+[font-awesome]: http://fortawesome.github.io/Font-Awesome/
+[gfonts]: http://www.google.com/fonts/specimen/Open+Sans
+[fork]: https://github.com/swanson/lagom/fork
+[config]: https://github.com/swanson/lagom/blob/master/_data/theme.yml
+[cname]: https://github.com/swanson/lagom/blob/master/CNAME
+[favicon]: https://github.com/swanson/lagom/blob/master/favicon.png
+[logo]: https://github.com/swanson/lagom/blob/master/logo.png
+[pages]: http://pages.github.com
+[twitter]: https://twitter.com/_swanson
+[pages]: https://github.com/github/pages-gem
