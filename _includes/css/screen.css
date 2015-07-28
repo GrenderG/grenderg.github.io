@@ -32,6 +32,8 @@ h1, h2, h3, h4, h5, h6 {
 
 h1.title {
   font-weight: 800;
+  padding-bottom: 8px;
+  border-bottom: 1px dotted #ddd;
 }
 
 h1 {

@@ -10,7 +10,7 @@ categories:
 permalink: "jekyll-github"
 ---
 
-
+<img style="    display: block; margin-left: auto; margin-right: auto;" src="/assets/image/jekyll_github.png" width="80%" height="80%"/>
 I have been using Wordpress for a year and it's not a *bad guy* but there are a few reasons for me to change Wordpress by Jekyll.
 
 ###Jekyll has everything -and only what- you need 
