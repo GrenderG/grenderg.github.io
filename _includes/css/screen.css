@@ -96,7 +96,7 @@ ul.posts li {
   margin-bottom: 0px;
 }
 
-ul.posts span {
+ul.posts span.date {
   font-family: 'Lucida Console', 'Andale Mono', monospace;
   color: #aaa;
   padding-right: 5px;
@@ -141,11 +141,19 @@ nav h1, nav h2 {
   margin-bottom: 15px;
 }
 
+.browser-menu i {
+  padding-right: 6px;
+}
+
 .mobile-menu {
   margin-top: 7px;
   border-bottom: 1px dotted #ddd;
   padding-bottom: 7px;
   margin-bottom: 15px;
+}
+
+.mobile-menu i {
+  padding-right: 6px;
 }
 
 #social {
@@ -211,6 +219,10 @@ nav h1, nav h2 {
 .aside {
   font-size: 75%;
   color: #666;
+}
+
+#finder {
+  width: 100%;
 }
 
 #home h2 {
