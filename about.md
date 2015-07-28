@@ -15,7 +15,7 @@ I am studying Computer Engineering and doing some stuff as a freelancer.
 
 ### Contact me
 
-Find me on [Google play][gplay] / [Github][github] / [Twitter][Twitter] or send me an email to **grenderg@gmail.com**.
+Find me on [Google play][gplay] / [Github][github] / [Twitter][Twitter] or send me an email to **dmorales@dmoral.es**.
 
 
 [mb]: http://mobilendo.com/
