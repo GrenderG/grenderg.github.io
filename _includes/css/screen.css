@@ -16,6 +16,14 @@ body {
   border-top: 7px solid {{ site.data.theme.highlight_color }};
 }
 
+p.post_description {
+  font-family: 'Lucida Console', 'Andale Mono', monospace;
+  color: #aaa;
+  padding-right: 5px;
+  font-size:14px;
+  border-bottom: 1px dotted #ddd;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
   font-family: "open sans", sans-serif;
@@ -70,6 +78,10 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+div#post {
+  border-bottom: 1px dotted #ddd;
 }
 
 ul.posts {

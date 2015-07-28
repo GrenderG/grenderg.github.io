@@ -44,9 +44,11 @@ Great, uh?
 You're already in love with them, aren't you? ! <i class="fa fa-heart red_heart"></i>
 
 More info about Jekyll and Github hosting here:
-: [Github pages](https://pages.github.com/)
-: [Jekyll](http://jekyllrb.com/)
-: [Getting started with git](http://rogerdudler.github.io/git-guide/)
+<ul>
+<li><a href="https://pages.github.com/">Github pages</a></li>
+<li><a href="http://jekyllrb.com/">Jekyll</a></li>
+<li><a href="http://rogerdudler.github.io/git-guide/">Getting started with git</a></li>
+</ul>
 
 
 
