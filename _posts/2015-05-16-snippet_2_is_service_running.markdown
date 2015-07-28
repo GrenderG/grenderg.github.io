@@ -26,7 +26,7 @@ public boolean isMyServiceRunning(Class<?> serviceClass) {
 }
 {% endhighlight %}
 
-- **serviceClass:** The class name of the servie that you want to check.
+- **serviceClass:** The class name of the service that you want to check.
 
 ###What does it returns?
 true if the service is running, false if not.
