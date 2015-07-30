@@ -2,6 +2,6 @@
 highlighter: pygments
 url: http://dmoral.es/
 lsi: false
-paginate: 10
+paginate: 2
 paginate_path: "/page/:num"
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
