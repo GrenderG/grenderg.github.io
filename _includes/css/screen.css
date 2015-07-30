@@ -24,6 +24,18 @@ p.post_description {
   border-bottom: 1px dotted #ddd;
 }
 
+.pager {
+  list-style-type: none;
+}
+
+.pager .next {
+  float: right;
+}
+
+.pager .previous {
+  float: left;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
   font-family: "open sans", sans-serif;
