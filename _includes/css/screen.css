@@ -177,9 +177,12 @@ nav h1, nav h2 {
 
 #post pre {
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: #39382e;
   padding: 0 .4em;
   margin-bottom: 20px !important;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
 }
 
 #post ul,
@@ -189,13 +192,19 @@ nav h1, nav h2 {
 
 #post code {
   border: 1px solid #ddd;
-  background-color: #eef;
+  background-color: #39382e;
   font-size: 85%;
   padding: 0 .2em;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
 }
 
 #post pre code {
   border: none;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
 }
 
 .sidebar {
