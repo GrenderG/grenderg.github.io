@@ -4,9 +4,23 @@ title: Blog Posts
 ---
 
 <div id="home">
-  <div>
-	  <input type="text" id="finder" placeholder="Search..." onkeydown="LMWebFinder.pressKey(this.value, event);">	
-  </div>
+   <div id="search-container">
+      <input type="text" id="search-input" placeholder="Search...">
+      <div class="col-md-12 content-panel articles">
+        <ul id="results-container"></ul>
+      </div>
+    </div>
+    <script type="text/javascript">    
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: 'No results found',
+        limit: 10,
+        fuzzy: false,
+      })
+    </script>
   <h2><i class="fa fa-bookmark"></i> Blog Posts</h2>
   <ul id="blog-posts" class="posts">
   	<div id="findIn">
