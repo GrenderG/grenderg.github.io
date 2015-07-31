@@ -323,7 +323,7 @@ nav h1, nav h2 {
 
 #stalker a:hover {
   text-decoration: none;
-  color: {{ site.data.theme.highlight_color }};
+  color: gray;
 }
 
 i.fa-hn {
