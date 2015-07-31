@@ -176,13 +176,14 @@ nav h1, nav h2 {
 }
 
 #post pre {
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
   background-color: #39382e;
+  box-shadow: 4px 4px 8px #888888;
   padding: 0 .4em;
   margin-bottom: 20px !important;
--webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 #post ul,
@@ -191,7 +192,7 @@ border-radius: 5px;
 }
 
 #post code {
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
   background-color: #39382e;
   font-size: 85%;
   padding: 0 .2em;
@@ -246,6 +247,9 @@ border-radius: 5px;
 
 #search-input {
   width: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 #results-container {
