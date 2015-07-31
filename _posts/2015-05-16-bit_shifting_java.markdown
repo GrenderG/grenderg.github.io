@@ -59,11 +59,11 @@ Okay, 128 in binary is 100000000.
 If you bit shift it to the right (division, >>) 5 positions... What number do you get in binary? 1000, and 1000 is... 4!
 <table>
     <tr>
-        <td>0 -></td>
-        <td>1 -></td>
-        <td>2 -></td>
-        <td>3 -></td>
-        <td>4 -></td>
+        <td>0 <i class="fa fa-long-arrow-right"></i></td>
+        <td>1 <i class="fa fa-long-arrow-right"></i></td>
+        <td>2 <i class="fa fa-long-arrow-right"></i></td>
+        <td>3 <i class="fa fa-long-arrow-right"></i></td>
+        <td>4 <i class="fa fa-long-arrow-right"></i></td>
         <td>5</td>
     </tr>
     <tr>
@@ -98,11 +98,11 @@ That operation will return 128.
 <table>
     <tr>
         <td>5</td>
-        <td><- 4</td>
-        <td><- 3</td>
-        <td><- 2</td>
-        <td><- 1</td>
-        <td><- 0</td>
+        <td><i class="fa fa-long-arrow-left"></i> 4</td>
+        <td><i class="fa fa-long-arrow-left"></i> 3</td>
+        <td><i class="fa fa-long-arrow-left"></i> 2</td>
+        <td><i class="fa fa-long-arrow-left"></i> 1</td>
+        <td><i class="fa fa-long-arrow-left"></i> 0</td>
     </tr>
     <tr>
         <td>128</td>
