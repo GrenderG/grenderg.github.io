@@ -129,6 +129,6 @@ That operation will return 128.
 </table>
 
 ###Conclusion
-Hope you have learn a lot reading this and I encourage you to use bit shifting (you can do it in almost all languages and it's the same!) in order to decrease resource consumption in your software.
+Hope you have learnt a lot reading this and I encourage you to use bit shifting (you can do it in almost all languages and it's the same!) in order to decrease resource consumption in your software.
 Of course this is a very simple explanation of what is bit shifting, so I recommend you to keep learning about this topic.
 
