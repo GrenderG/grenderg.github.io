@@ -20,15 +20,7 @@ public static boolean isConnectedToTheInternet(Context context) {
                            context.getSystemService(Context.CONNECTIVITY_SERVICE);
     NetworkInfo ni = cm.getActiveNetworkInfo();
 
-    if (ni == null)
-        return false;
-    if (!ni.isConnected())
-        return false;
-    if (!ni.isAvailable())
-        return false;
-
-    return true;
-
+    return ni != null && ni.isConnected() && ni.isAvailable();
 }
 {% endhighlight %}
 
