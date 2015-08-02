@@ -7,7 +7,7 @@ categories:
   - android
   - internet
   - snippet
-permalink: "is-internet_available"
+permalink: "is-internet-available"
 published: true
 ---
 
