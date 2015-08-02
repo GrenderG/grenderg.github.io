@@ -27,4 +27,4 @@ public static boolean isConnectedToTheInternet(Context context) {
 - **context:** A valid context.
 
 ###What does it returns?
-true if the the device is comnected to the internet, false if not.
+true if the the device is connected to the internet, false if not.
