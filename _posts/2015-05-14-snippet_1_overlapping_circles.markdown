@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Snippet 1. Overlapping circles positions"
+title: "Snippet #1. Overlapping circles positions"
 date: 2015-05-15 19:12:00
 description: Get the overlapping circles positions the easy-way.
 categories: 

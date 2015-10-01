@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Snippet 3. Know if a device is connected to the internet"
+title: "Snippet #3. Know if a device is connected to the internet"
 date: 2015-07-31 17:38:00
 description: Simple way to know if a device is connected to the internet (Wifi or mobile data).
 categories: 
