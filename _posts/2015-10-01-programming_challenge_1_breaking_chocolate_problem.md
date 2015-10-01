@@ -10,7 +10,7 @@ permalink: "breaking-chocolate-problem"
 published: true
 ---
 
-I have been having a lot of fun with [Codewars](www.codewars.com/r/sXy0Vg) so I've decided to create a **"Programming challenge"** section to publish some coding challenges and their solutions (of course in a spoiler, don't be naughty!) in order to check if you're right when you are done. Usually I will solve them using Java or Python, but you can use what you want. Let's start!
+I have been having a lot of fun with <a href="www.codewars.com/r/sXy0Vg">Codewars</a> so I've decided to create a **"Programming challenge"** section to publish some coding challenges and their solutions (of course in a spoiler, don't be naughty!) in order to check if you're right when you are done. Usually I will solve them using Java or Python, but you can use what you want. Let's start!
 
 ##The problem
 Bill is a fat and a lazy guy who loves eating chocolate, but due to his lazyness he wants to break the chocolate bar with the minimum number of breaks needed.
