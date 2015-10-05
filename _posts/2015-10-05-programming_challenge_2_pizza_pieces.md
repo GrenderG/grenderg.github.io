@@ -22,9 +22,15 @@ In her trip to Italy, Elizabeth Gilbert made it her duty to eat perfect pizza. O
 > If K is a negative number, the result must be -1.
 
 ##Examples
-With 0 cuts <i class="fa fa-long-arrow-right"> 1 piece.
-With 1 cut <i class="fa fa-long-arrow-right"> 2 pieces.
-With 3 cuts <i class="fa fa-long-arrow-right"> 7 pieces.
+{% highlight java %}
+Pizza.maxPizza(0) == 1
+{% endhighlight %}
+{% highlight java %}
+Pizza.maxPizza(1) == 2
+{% endhighlight %}
+{% highlight java %}
+Pizza.maxPizza(3) == 7
+{% endhighlight %}
 
 ##The solution
 [spoiler]
