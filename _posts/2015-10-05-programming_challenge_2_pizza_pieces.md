@@ -2,7 +2,7 @@
 layout: post
 title: "Programming challenge #2. Pizza pieces"
 date: 2015-10-05 19:00:03
-description: Unexpected guests
+description: Receiving unexpected guests.
 categories: 
   - programming-challenge-2
   - java
@@ -22,11 +22,9 @@ In her trip to Italy, Elizabeth Gilbert made it her duty to eat perfect pizza. O
 > If K is a negative number, the result must be -1.
 
 ##Examples
-<pre>
 With 0 cuts <i class="fa fa-long-arrow-right"> 1 piece.
 With 1 cut <i class="fa fa-long-arrow-right"> 2 pieces.
 With 3 cuts <i class="fa fa-long-arrow-right"> 7 pieces.
-</pre>
 
 ##The solution
 [spoiler]
