@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Programming challenge #2. Pizza pieces"
-date: 2015-10-05 19:90:03
+date: 2015-10-05 19:00:03
 description: Unexpected guests
 categories: 
   - programming-challenge-2
