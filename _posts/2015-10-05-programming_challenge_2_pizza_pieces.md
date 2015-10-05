@@ -15,7 +15,7 @@ Today I'll continue this series with a problem if you are astute you will solve 
 ##The problem
 In her trip to Italy, Elizabeth Gilbert made it her duty to eat perfect pizza. One day, she ordered one for dinner. And then some Italian friends appeared at her room. The problem is that there were many people who ask for a piece of pizza at that moment. And she had a knife that only cuts straight.
 
-**This is what he wants:**
+**This is what she wants:**
 
 > Given a number K (K <= 45000), help her get the maximum of pieces possible (not necessarily of equal size) with K cuts. 
 > 
