@@ -37,7 +37,7 @@ Pizza.maxPizza(3) == 7
 {% highlight java %}
 public class Pizza {
   public static int maxPizza(int k) {
-    return k < 0  || k >= 45000 ? -1 : k * (k + 1) / 2 + 1;
+    return k < 0 || k >= 45000 ? -1 : k * (k + 1) / 2 + 1;
   }
 }
 {% endhighlight %}
