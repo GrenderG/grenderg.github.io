@@ -34,8 +34,11 @@
     </div>
 
     <div class="mobile-menu">
-      <a href="{{ '/' }}"><i class="fa fa-bookmark"></i>&nbsp;Home&nbsp;&nbsp;</a>
-      <a href="{{ '/about' }}"><i class="fa fa-user"></i>&nbsp;About</a>
+      <ul>
+        <li><a href="{{ '/' }}"><i class="fa fa-bookmark fa-fw"></i>Home&nbsp;&nbsp;</a></li>
+        <li><a href="http://personal.dmoral.es"><i class="fa fa-cloud fa-fw"></i>Personal&nbsp;&nbsp;</a></li>
+        <li><a href="{{ '/about' }}"><i class="fa fa-user fa-fw"></i>About</a></li>
+      </ul>
     </div>
     <div class="eleven columns content">
       {{ content }}

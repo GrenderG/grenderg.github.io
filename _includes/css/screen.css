@@ -170,6 +170,10 @@ nav h1, nav h2 {
   padding-right: 6px;
 }
 
+.mobile-menu ul li {
+  display: inline;
+}
+
 #social {
   margin-bottom: 10px;
   font-size: 13px;

@@ -32,30 +32,34 @@ function LMSpoiler() {
     var endPosition = 0;
     var lastPosition = 0;
 
-    while(content.indexOf("[spoiler]", lastPosition) != -1) { //if there is a tag to convert to spoiler
+    try {
 
-      lastPosition = content.indexOf("[spoiler]", lastPosition); //takes the position of start tag of spoiler
-      endPosition = content.indexOf("[/spoiler]", lastPosition); //takes the position of end tag of spoiler
+      while(content.indexOf("[spoiler]", lastPosition) != -1) { //if there is a tag to convert to spoiler
 
-      insideText = content.substr(lastPosition + 9, endPosition - (lastPosition + 9)); //text which is inside spoiler tags
-      completeSpoiler = content.substr(lastPosition, (endPosition + 10) - lastPosition); //all content including spoiler tags
+        lastPosition = content.indexOf("[spoiler]", lastPosition); //takes the position of start tag of spoiler
+        endPosition = content.indexOf("[/spoiler]", lastPosition); //takes the position of end tag of spoiler
 
-      spoiler = '<div class="' + this.customSpoilerClass + '"><div class="show-button" data-show="spoiler' + spoilerIndex + 
-      '" onclick="spoiler(this, ' + this.spoilerTime + ');">' + this.customShowText + '</div><div id="spoiler' + 
-      spoilerIndex + '" class="spoiler-content">' + insideText + '</div></div>';
+        insideText = content.substr(lastPosition + 9, endPosition - (lastPosition + 9)); //text which is inside spoiler tags
+        completeSpoiler = content.substr(lastPosition, (endPosition + 10) - lastPosition); //all content including spoiler tags
 
-      content = content.replace(completeSpoiler, spoiler); //replace all content with a spoiler
+        spoiler = '<div class="' + this.customSpoilerClass + '"><div class="show-button" data-show="spoiler' + spoilerIndex + 
+        '" onclick="spoiler(this, ' + this.spoilerTime + ');">' + this.customShowText + '</div><div id="spoiler' + 
+        spoilerIndex + '" class="spoiler-content">' + insideText + '</div></div>';
 
-      $(this.contentTag).html(content); //and attach it to content
+        content = content.replace(completeSpoiler, spoiler); //replace all content with a spoiler
 
-      insideText = "";
-      completeSpoiler = "";
-      spoiler = "";
+        $(this.contentTag).html(content); //and attach it to content
 
-      lastPosition ++;
-      spoilerIndex ++;
-    }
-    };
+        insideText = "";
+        completeSpoiler = "";
+        spoiler = "";
+
+        lastPosition ++;
+        spoilerIndex ++;
+      }
+
+    } catch(e) {}
+  };
 }
 
 function spoiler (element, time) {
