@@ -24,7 +24,7 @@ You just need to follow some *getting started* guides and your website will be d
 ###Goodbye server-side things!
 Yes, Jekyll works with static files (well ordered static files, though) so you won't need any database, php code and so on.
 The loading of static files places a tiny amount of load data on a server, it's almost imperceptible.
-So, the absence of dinamic files makes your site -a bit more- secure.
+So, the absence of dynamic files makes your site -a bit more- secure.
 
 ###Lots of open templates!
 Seriously, not all of us are good designers... Let's take some open stuff to make our website look a bit more pretty! Just google a bit and you will find tons of templates.
