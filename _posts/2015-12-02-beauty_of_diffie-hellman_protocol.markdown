@@ -25,26 +25,26 @@ Last day I was thinking with a friend of mine a simple way to encrypt credential
 
 For example, Alice thinks two numbers: **p** and **g**, being p a prime number and g a number usually between 2 and 5, after that she thinks a random number **a** (a < p) to do that:
 
-A = p<sup>a</sup> mod g
+A = g<sup>a</sup> mod p
 {: style="font-weight:bold; font-size: 120%; text-align: center;"}
 
 She sends **g**, **p** and **A** to Bob. *(View the note in the image footer)*.
 
 When Bob receives the data he thinks a random number **b** (b < p) and computes that:
 
-B = p<sup>b</sup> mod g
+B = g<sup>b</sup> mod p
 {: style="font-weight:bold; font-size: 120%; text-align: center;"}
 
 Then, he sends B back to Alice.
 
 When Alice receives the answer from Bob, she does that:
 
-K = B<sup>a</sup> mod g
+K = B<sup>a</sup> mod p
 {: style="font-weight:bold; font-size: 120%; text-align: center;"}
 
 and Bob does that:
 
-J = A<sup>b</sup> mod g
+J = A<sup>b</sup> mod p
 {: style="font-weight:bold; font-size: 120%; text-align: center;"}
 
 K and J will be equals, so there is the shared and symmetric private key.
