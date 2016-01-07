@@ -17,6 +17,8 @@ I am studying Computer Engineering and doing some stuff as a freelancer.
 
 Find me on [Google play][gplay] / [Github][github] / [Twitter][Twitter] or send me an email to **dmorales@dmoral.es**.
 
+{% include social.html %}
+
 
 [mb]: http://mobilendo.com/
 [github]: https://github.com/grenderg

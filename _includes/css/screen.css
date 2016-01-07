@@ -309,9 +309,9 @@ nav h1, nav h2 {
 }
 
 #stalker {
-  display: inline-block;
-  height: 18px;
-  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8px;
 }
 
 #stalker a {
