@@ -1,8 +1,8 @@
 # General Jekyll Config
+highlighter: rouge
 markdown: kramdown
 kramdown:
  input: GFM
- syntax_highlighter: rouge
 url: http://dmoral.es/
 lsi: false
 paginate: 5

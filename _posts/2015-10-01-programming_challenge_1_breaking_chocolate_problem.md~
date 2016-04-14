@@ -15,7 +15,7 @@ I have been having a lot of fun with [Codewars](http://www.codewars.com/r/sXy0Vg
 ## The problem
 Bill is a fat and a lazy guy who loves eating chocolate, but due to his lazyness he wants to break the chocolate bar with the minimum number of breaks needed.
 
-**This is what he wants:**
+** This is what he wants :**
 
 > Your task is to split the chocolate bar of given dimension n x m into small squares. Each square is of size 1x1 and unbreakable. Implement a function that will return minimum number of breaks needed.
 > 
