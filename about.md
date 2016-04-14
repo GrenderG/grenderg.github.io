@@ -10,7 +10,7 @@ published: true
 </div>
 Hi, I am Daniel Morales, a software developer (Android proficiency) based in Spain. 
 
-I get my Associate degree in Multiplatform development (Software Engineering) and then worked
+I got my Associate degree in Multiplatform development (Software Engineering) and then worked
 as an Android and iOS developer in [Mobilendo][mb]. After that I studied Computer Engineering for a year,
 but I'm currently taking a break as it's not required for my work at this moment, so I'm working as a freelancer.
 
