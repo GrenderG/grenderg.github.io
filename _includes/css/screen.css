@@ -10,7 +10,7 @@ html, body {
 body {
   font-size: 16px;
   background-color: black;
-  color: #222222;
+  color: #5A973D;
   line-height: 24px;
   margin: 0;
   /*border-top: 7px solid {{ site.data.theme.highlight_color }};*/
@@ -365,11 +365,15 @@ i.fa-hn {
 .home {
   font-size: 24px;
   float: right;
-  color: #AAA;
 }
 
 .home:hover {
   text-decoration: none;
+}
+
+#image-404 {
+  display: block;
+  margin: 0 auto;
 }
 
 .disclaimer p {
