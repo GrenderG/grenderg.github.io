@@ -17,7 +17,7 @@ body {
 }
 
 p.post_description {
-  font-family: 'Lucida Console', 'Andale Mono', monospace;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
   color: #5A973D;
   padding-right: 5px;
   font-size:14px;
@@ -38,7 +38,7 @@ p.post_description {
 
 h1, h2, h3, h4, h5, h6 {
   color: white;
-  font-family: 'Lucida Console', 'Andale Mono', monospace;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
   text-shadow: 2px 2px 8px #00FE00;
   font-weight: 600;
 }
@@ -114,7 +114,7 @@ ul.posts li {
 }
 
 ul.posts span {
-  font-family: 'Lucida Console', 'Andale Mono', monospace;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
   color: #aaa;
   padding-right: 5px;
   font-size:14px;
@@ -222,7 +222,7 @@ nav h1, nav h2 {
 
 .sidebar {
   padding-top: 25px;
-  font-family: 'Lucida Console', 'Andale Mono', monospace;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
   color: #aaa;
 }
 
@@ -235,7 +235,7 @@ nav h1, nav h2 {
 }
 
 .content {
-  font-family: 'Lucida Console', 'Andale Mono', monospace;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
   border-left: 1px solid #aaa;
   padding-left: 40px;
   padding-top: 25px;
@@ -275,7 +275,7 @@ nav h1, nav h2 {
 #search-input {
   outline: none;
   border: 0px;
-  font-family: 'Lucida Console', 'Andale Mono', monospace;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
   background-color: transparent;
   color: #5A973D;
   font-size: 12px;
@@ -355,7 +355,7 @@ nav h1, nav h2 {
 }
 
 i.fa-hn {
-  font-family: 'Lucida Console', 'Andale Mono', monospace;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
   text-align: center;
   font-size: 18px !important;
   position: relative;
