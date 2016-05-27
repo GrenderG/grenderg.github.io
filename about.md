@@ -321,7 +321,7 @@ setTimeout(function () {
 	<div class='element6 nodisplay'>dmorales@about ~$ </div>
 </div>
 <div id="about-social">
-<p>Find me on <a href="https://play.google.com/store/apps/developer?id=GrenderG">Google play</a> / <a href="https://github.com/grenderg">Github</a> / <a href="https://twitter.com/grenderg">Twitter</a> or send me an email to <strong>dmorales@dmoral.es</strong>.</p>
+<p>Find me on <a href="https://play.google.com/store/apps/developer?id=GrenderG">Google play</a> / <a href="https://github.com/grenderg">Github</a> / <a href="https://twitter.com/grenderg">Twitter</a> or send me an email to <a href="mailto:dmorales@dmoral.es"><strong>dmorales@dmoral.es</strong></a>.</p>
 <div id="about-stalker">
 {% include social.html %}
 </div>
