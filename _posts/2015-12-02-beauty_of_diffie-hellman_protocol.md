@@ -18,7 +18,7 @@ Last day I was thinking with a friend of mine a simple way to encrypt credential
 >
 >This is a diagram showing the usage of that protocol:
 >
-><a href="/assets/image/diffie_hellman.png" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" src="/assets/image/diffie_hellman.png" width="100%" height="100%" /></a>
+><a href="/assets/image/diffie_hellman.png" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto; background-color: white" src="/assets/image/diffie_hellman.png" width="100%" height="100%" /></a>
 >***Note:** There is no need to pass p and g from A to B, it could be agreed before between the parts.*
 
 ### Explanation

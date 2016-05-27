@@ -6,6 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5A973D" />
   <title>{{ site.data.theme.name }} - {{ page.title }}</title>
   <meta name="author" content="{{ site.data.theme.name }}" />
   <meta name="description" content="The blog of {{ site.data.theme.name }}" />
@@ -33,13 +34,13 @@
       {% include sidebar.html %}
     </div>
 
-    <div class="mobile-menu">
+    <nav class="mobile-menu">
       <ul>
-        <li><a href="{{ '/' }}"><i class="fa fa-bookmark fa-fw"></i>Home&nbsp;&nbsp;</a></li>
-        <li><a href="http://personal.dmoral.es"><i class="fa fa-cloud fa-fw"></i>Personal&nbsp;&nbsp;</a></li>
-        <li><a href="{{ '/about' }}"><i class="fa fa-user fa-fw"></i>About</a></li>
+        <li><a href="{{ '/' }}"><i class="fa fa-bookmark fa-fw"></i>/home</a></li>
+        <li><a href="http://personal.dmoral.es"><i class="fa fa-cloud fa-fw"></i>/personal</a></li>
+        <li><a href="{{ '/about' }}"><i class="fa fa-user fa-fw"></i>/about</a></li>
       </ul>
-    </div>
+    </nav>
     <div class="eleven columns content">
       {{ content }}
 

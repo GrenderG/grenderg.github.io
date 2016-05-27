@@ -1,6 +1,6 @@
 <nav>
   <!--<h1>Hi.</h1>-->
-  <a href="/">
+  <a id="main_logo" href="/">
     {% if site.data.theme.social.gravatar %}
     <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
     {% else %}
@@ -9,12 +9,15 @@
   </a>
   <!--<h2>I'm <a href="/">{{ site.data.theme.name }}</a>.</h2>-->
   <div class="browser-menu">
-    <a href="{{ '/' }}"><i class="fa fa-bookmark fa-fw"></i>Home</a><br/>
-    <a href="http://personal.dmoral.es"><i class="fa fa-cloud fa-fw"></i>Personal thoughts</a><br/>
-    <a href="{{ '/about' }}"><i class="fa fa-user fa-fw"></i>About</a><br/>
+    <a href="{{ '/' }}"><i class="fa fa-bookmark fa-fw"></i>/home</a><br/>
+    <a href="http://personal.dmoral.es"><i class="fa fa-cloud fa-fw"></i>/personal</a><br/>
+    <a href="{{ '/about' }}"><i class="fa fa-user fa-fw"></i>/about</a><br/>
   </div>
   <div id="bio">
-    <p>Hey, I'm Daniel Morales (aka Grender) and this is my personal blog.</p>
+    <!--<p>Hey, I'm Daniel Morales (aka Grender) and this is my personal blog.</p>-->
+    <p>
+    48 65 79 2c 20 49 27 6d 20 44 61 6e 69 65 6c 20 4d 6f 72 61 6c 65 73 20 28 61 6b 61 20 47 72 65 6e 64 65 72 29 20 61 6e 64 20 74 68 69 73 20 69 73 20 6d 79 20 70 65 72 73 6f 6e 61 6c 20 62 6c 6f 67 2e 
+    </p>
   </div>
   <div id="social">
     {% include social.html %}
