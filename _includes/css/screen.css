@@ -383,8 +383,9 @@ i.fa-hn {
 }
 
 .home {
-  font-size: 24px;
+  font-size: 24px !important;
   float: right;
+  color: #aaa;
 }
 
 .home:hover {
