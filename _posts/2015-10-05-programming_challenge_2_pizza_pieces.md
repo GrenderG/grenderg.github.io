@@ -3,10 +3,8 @@ layout: post
 title: "Programming challenge #2. Pizza pieces"
 date: 2015-10-05 19:00:03
 description: Receiving unexpected guests.
-categories: 
-  - programming-challenge-2
-  - java
-permalink: "pizza-pieces"
+categories: [programming, challenges]
+permalink: "blog/pizza-pieces"
 published: true
 ---
 

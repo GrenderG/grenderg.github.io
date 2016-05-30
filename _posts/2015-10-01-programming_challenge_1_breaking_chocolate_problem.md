@@ -3,10 +3,8 @@ layout: post
 title: "Programming challenge #1. Breaking chocolate problem"
 date: 2015-10-01 18:20:00
 description: Will you be able to help Bill breaking his chocolate bar?
-categories: 
-  - programming-challenge-1
-  - java
-permalink: "breaking-chocolate-problem"
+categories: [programming, challenges]
+permalink: "blog/breaking-chocolate-problem"
 published: true
 ---
 

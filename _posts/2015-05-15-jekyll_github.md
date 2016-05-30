@@ -4,10 +4,8 @@ layout: post
 title: Fall in love with Jekyll + Github
 date: 2015-05-15 18:18:00
 description: If you read this you will automatically fall in love with them.
-categories: 
-  - jekyll
-  - github
-permalink: "jekyll-github"
+category: general
+permalink: "blog/jekyll-github"
 ---
 
 <img style="    display: block; margin-left: auto; margin-right: auto;" src="/assets/image/jekyll_github.png" width="80%" height="80%"/>

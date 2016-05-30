@@ -3,10 +3,8 @@ layout: post
 title: "The beauty of Diffie-Hellman protocol"
 date: 2015-12-02 23:59:00
 description: From my point of view one of the most elegant protocols.
-categories: 
-  - diffie-hellman
-  - protocol
-permalink: "beauty-of-diffie-hellman-protocol"
+category: programming
+permalink: "blog/beauty-of-diffie-hellman-protocol"
 published: true
 ---
 

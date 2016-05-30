@@ -104,6 +104,7 @@ div#post {
 ul.posts {
   margin-top: 0;
   list-style-type: none;
+  text-align: left;
   margin-bottom: 10px;
 }
 
@@ -113,11 +114,31 @@ ul.posts li {
   margin-bottom: 0px;
 }
 
-ul.posts span {
+ul.posts {
   font-family: Monaco, Consolas, "Lucida Console", monospace;
   color: #aaa;
   padding-right: 5px;
   font-size:14px;
+}
+
+h2.category_header {
+  text-transform: capitalize;
+}
+
+#category_selector { 
+  border: 1px solid #5A973D; 
+  font-size: 16px; 
+  color: #5A973D; 
+  background-color: #003300;
+  padding: 5px; 
+  width: 100%;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.catbloc:not(:target) {
+  display: none;
 }
 
 .meta {
@@ -181,8 +202,6 @@ nav h1, nav h2 {
 .mobile-menu {
   margin-top: 7px;
   border-bottom: 1px dotted #aaa;
-  padding-bottom: 7px;
-  margin-bottom: 15px;
 }
 
 .mobile-menu i {
@@ -262,6 +281,7 @@ nav h1, nav h2 {
   text-align: left;
   color: #5A973D;
   border: 1px solid #5A973D;
+  background-color: #003300;
   margin-bottom: 10px;
   padding: 8px;
 }

@@ -3,9 +3,8 @@ layout: post
 title: "Hello World!"
 date: 2015-05-14 23:47:00
 description: Just the first post of my personal blog.
-categories: 
-  - helloworld
-permalink: "hello-world"
+category: general
+permalink: "blog/hello-world"
 published: true
 ---
 
