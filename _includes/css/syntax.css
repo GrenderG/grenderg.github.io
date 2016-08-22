@@ -1,6 +1,6 @@
 pre { white-space: pre; overflow: auto; }
-code, pre { font-family: Monaco,Menlo,Consolas,"Courier New",monospace; background-color: #585858;}
-div.highlight, div.highlight code, div.highlight pre  { background: transparent; }
+code, pre { font-family: Monaco,Menlo,Consolas,"Courier New",monospace; }
+div.highlight, div.highlight code, div.highlight pre  { background-color: #585858; }
 div.highlight code { padding: 0; }
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
