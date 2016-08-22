@@ -219,9 +219,13 @@ nav h1, nav h2 {
 }
 
 #post pre {
-  border: 1px solid #5A973D;
-  background-color: black;
-  padding: 0 .4em;
+  line-height: 1.5;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 10px 10px 15px;
+  padding: 10px;
+  border-radius: 3px;
+  background: rgb(39, 39, 39);
   margin-bottom: 20px !important;
 }
 
