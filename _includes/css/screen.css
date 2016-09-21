@@ -431,3 +431,37 @@ sup {
   vertical-align: super;
   font-size: smaller;
 }
+
+.dt-item {
+  color: #5A973D;
+  border: 1px solid #5A973D;
+  background-color: #003300;
+  margin: 32px;
+}
+
+.dt-item h3 {
+  margin: 0;
+  padding: 8px;
+}
+
+.dt-item p {
+  margin: 0;
+  padding: 8px;
+}
+
+.dt-item a:hover {
+  text-decoration: none;
+}
+
+.dt-item:hover {
+  border: 1px solid #aaa;
+}
+
+#lib-list li {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  margin: 0;
+  margin-left: 16px;
+  padding: 4px 0px 4px 0px;
+}
