@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About me
+title: Defiler's Tavern
 permalink: /defilers-tavern/
 published: true
 ---

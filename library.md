@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About me
+title: Personal library
 permalink: /library/
 published: true
 ---
