@@ -465,3 +465,8 @@ sup {
   margin-left: 16px;
   padding: 4px 0px 4px 0px;
 }
+
+#lib-list a {
+  font-size: 0.8em;
+  color: gray;
+}
