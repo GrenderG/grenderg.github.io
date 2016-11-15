@@ -33,5 +33,9 @@ published: true
 		<li><strong>"Mona Lisa acelerada"</strong>, William Gibson. <a href="http://www.mediafire.com/download/ycccc8kzllhtlee/Mona_Lisa_acelerada_-_William_Gibson.epub">EPUB</a> <a href="http://www.mediafire.com/download/zodd59tuvo1e2f0/Mona_Lisa_Acelerada_-_William_Gibson.pdf">PDF</a></li>
 		<li><strong>"Carta de Jacobi a Fichte sobre el nihilismo"</strong>, F. H. Jacobi. <a href="http://www.mediafire.com/download/8mvkox6ccv2dvkj/Carta_de_Jacobi_a_Fichte_sobre_el_nihilismo_-_F._H._Jacobi.PDF">PDF</a></li>
 		<li><strong>"Los renglones torcidos de Dios"</strong>, Torcuato Luca de Tena. <a href="http://www.mediafire.com/download/lxgmt94e38x83mi/Los_renglones_torcidos_de_Dios_-_Torcuato_Luca_de_Tena.epub">EPUB</a> <a href="http://www.mediafire.com/download/j8ozmqrg9g55c2y/Los_renglones_torcidos_de_Dios_-_Torcuato_Luca_de_Tena.pdf">PDF</a></li>
+		<li><strong>"El hombre que fue jueves"</strong>, Gilbert K. Chesterton. <a href="http://www.mediafire.com/file/e94r8bwf16ouv9t/El+hombre+que+fue+jueves+-+G.+K.+Chesterton.epub">EPUB</a> <a href="http://www.mediafire.com/file/467mcab3n7pez13/El+hombre+que+fue+jueves+-+G.+K.+Chesterton.pdf">PDF</a></li>
+		<li><strong>"El mundo de Sofía"</strong>, Jostein Gaarder. <a href="http://www.mediafire.com/file/rhg48cwgah85upe/El+mundo+de+Sof%C3%ADa+-+Jostein+Gaarder.epub">EPUB</a> <a href="http://www.mediafire.com/file/ave8zl6g8vavn72/El+mundo+de+Sof%C3%ADa+-+Jostein+Gaarder.pdf">PDF</a></li>
+		<li><strong>"La última respuesta"</strong>, Isaac Asimov. <a href="http://www.mediafire.com/file/dhiwd37aiawpfbp/La+%C3%BAltima+respuesta+-+Isaac+Asimov.pdf">PDF</a></li>
+		<li><strong>"Te están manipulando"</strong>, J. D. McGregor. <a href="http://www.mediafire.com/file/b58ibhmtihad1pu/Te+est%C3%A1n+manipulando+-+J.+D.+McGregor.pdf">PDF</a></li>
 	</ul>
 </div>
