@@ -37,5 +37,6 @@ published: true
 		<li><strong>"El mundo de Sofía"</strong>, Jostein Gaarder. <a href="http://www.mediafire.com/file/rhg48cwgah85upe/El+mundo+de+Sof%C3%ADa+-+Jostein+Gaarder.epub">EPUB</a> <a href="http://www.mediafire.com/file/ave8zl6g8vavn72/El+mundo+de+Sof%C3%ADa+-+Jostein+Gaarder.pdf">PDF</a></li>
 		<li><strong>"La última respuesta"</strong>, Isaac Asimov. <a href="http://www.mediafire.com/file/dhiwd37aiawpfbp/La+%C3%BAltima+respuesta+-+Isaac+Asimov.pdf">PDF</a></li>
 		<li><strong>"Te están manipulando"</strong>, J. D. McGregor. <a href="http://www.mediafire.com/file/b58ibhmtihad1pu/Te+est%C3%A1n+manipulando+-+J.+D.+McGregor.pdf">PDF</a></li>
+		<li><strong>"Mundodisco (41 libros)"</strong>, Terry Pratchett. <a href="http://www.mediafire.com/file/2or4sskbl4qbsnz/Mundodisco.zip">EPUB</a></li>
 	</ul>
 </div>
