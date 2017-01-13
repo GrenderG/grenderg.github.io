@@ -38,5 +38,12 @@ published: true
 		<li><strong>"La última respuesta"</strong>, Isaac Asimov. <a href="http://www.mediafire.com/file/dhiwd37aiawpfbp/La+%C3%BAltima+respuesta+-+Isaac+Asimov.pdf">PDF</a></li>
 		<li><strong>"Te están manipulando"</strong>, J. D. McGregor. <a href="http://www.mediafire.com/file/b58ibhmtihad1pu/Te+est%C3%A1n+manipulando+-+J.+D.+McGregor.pdf">PDF</a></li>
 		<li><strong>"Mundodisco (41 libros)"</strong>, Terry Pratchett. <a href="http://www.mediafire.com/file/2or4sskbl4qbsnz/Mundodisco.zip">EPUB</a></li>
+		<li><strong>"La conjura de los necios"</strong>, John Kennedy Toole. <a href="http://www.mediafire.com/file/9rmnfqqqb2dqel2/La_conjura_de_los_necios_-_John_Kennedy_Toole.epub">EPUB</a> <a href="http://www.mediafire.com/file/fih44u4pir39rep/La_conjura_de_los_necios_-_John_Kennedy_Toole.pdf">PDF</a></li>
+		<li><strong>"La habitación"</strong>, Emma Donoughe. <a href="http://www.mediafire.com/file/nus74eqynsqansx/La_habitaci%C3%B3n_-_Emma_Donoghue.epub">EPUB</a> <a href="http://www.mediafire.com/file/fih44u4pir39rep/La_conjura_de_los_necios_-_John_Kennedy_Toole.pdf">PDF</a></li>
+		<li><strong>"La elegancia del erizo"</strong>, Muriel Barbery. <a href="http://www.mediafire.com/file/rsco010xlz6y173/La_elegancia_del_erizo_-_Muriel_Barbery.epub">EPUB</a></li>
+		<li><strong>"Rebelión en la granja"</strong>, George Orwell. <a href="http://www.mediafire.com/file/c5jpjg134v8jpq2/Rebeli%C3%B3n_en_la_granja_-_George_Orwell.epub">EPUB</a> <a href="hhttp://www.mediafire.com/file/l1p6nh819y8tapp/Rebeli%C3%B3n_en_la_Granja_-_George_Orwell.pdf">PDF</a></li>
+		<li><strong>"La igualdad social y política"</strong>, Concepción Arenal. <a href="http://www.mediafire.com/file/jbkp0bijsfe8k84/La_igualdad_social_y_pol%C3%ADtica_-_Concepci%C3%B3n_Arenal.epub">EPUB</a></li>
+		<li><strong>"Cómo podemos expropiar el dinero a las entidades bancarias"</strong>, Núria Güell. <a href="http://www.mediafire.com/file/ttu28e64e6fjivx/C%C3%B3mo_podemos_expropiar_dinero_a_las_entidades_bancarias_-_N%C3%BAria_G%C3%BCell.pdf">EPUB</a></li>
+		<li><strong>"El maravilloso viaje de Nils Holgerson"</strong>, Selma Lagerlof. <a href="http://www.mediafire.com/file/d8110n6947o9960/El_maravilloso_viaje_de_Nils_Holgerson_-_Selma_Lagerlof.epub">EPUB</a> <a href="http://www.mediafire.com/file/8rksggtannavurf/El_maravilloso_viaje_de_Nils_Holgerson_-_Selma_Lagerlof.pdf">PDF</a></li>
 	</ul>
 </div>
