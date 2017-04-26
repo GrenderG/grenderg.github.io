@@ -8,7 +8,7 @@ permalink: "blog/beauty-of-diffie-hellman-protocol"
 published: true
 ---
 
-Last day I was thinking with a friend of mine a simple way to encrypt credentials in a Rest API with Basic Auth without using SSL. We ended up studying this fascinating protocol (the way an algorithm should be used) called **"The Diffie-Hellman protocol"**.
+Last day I was thinking with a friend of mine a simple way to encrypt credentials in a Rest API with Basic Auth, the conversation continued and we ended up studying this fascinating protocol (the way an algorithm should be used) called **"The Diffie-Hellman protocol"**.
 
 >The Diffie-Hellman protocol (due to <a href="https://en.wikipedia.org/wiki/Whitfield_Diffie" target="_blank">Whitfield Diffie</a> and <a href="https://en.wikipedia.org/wiki/Martin_Hellman" target="_blank">Martin Hellman</a>) is a *key-agreement protocol* between two parts without previous contact, using an unsafe channel and without authentication.
 >
