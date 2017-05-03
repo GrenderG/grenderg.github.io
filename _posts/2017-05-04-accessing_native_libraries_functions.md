@@ -18,7 +18,7 @@ I'm assuming you already have the apk, but if not you can use online services li
 
 Alternatively you can download and install the app in your device, then get the location of the apk through adb.
 
-First of all you need to know here the apk is stored.
+First of all you need to know where the apk is stored.
 
 ```
 adb shell pm path com.niceguys.someapp
@@ -27,7 +27,7 @@ adb shell pm path com.niceguys.someapp
 Then just use adb again to pull the apk to your computer.
 
 ```
-adb pull /data/app/org.niceguys.repost-1/base.apk /destination/location
+adb pull /data/app/org.niceguys.repost-1/base.apk /destination/folder
 ```
 
 ## Decompiling the apk
