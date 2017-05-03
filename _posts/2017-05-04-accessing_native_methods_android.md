@@ -3,7 +3,7 @@ layout: post
 title: "Accessing the native methods of a decompiled Android app"
 date: 2017-05-04 01:45:00
 description: How to access to native methods of a decompiled Android application.
-category: programming
+category: [programming, android, pentesting]
 permalink: "blog/accessing_native_methods_android"
 published: true
 ---
