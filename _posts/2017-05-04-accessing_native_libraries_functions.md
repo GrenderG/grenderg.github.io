@@ -121,7 +121,7 @@ After that, create a package named `apackage` and inside, a class called `CoolCl
 
 ### Calling the native methods
 
-At this you have mimicked the project structure and added your victim's libraries inside your fake project.
+At this point you have mimicked the project structure and added your victim's libraries inside your fake project.
 
 Load the native library inside `CoolClass.java` and then copy the native methods as in the original file (take a look to the code
 above).
