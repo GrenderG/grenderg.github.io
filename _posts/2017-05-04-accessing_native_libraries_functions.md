@@ -127,7 +127,7 @@ Load the native library inside `CoolClass.java` and then copy the native methods
 above).
 
 Congratulations, now you are free to use `CoolClass.getSuperSecureKey()` wherever you want (for example, in your MainActivity class)
-and print the result at the LogCat.
+and print the result to the LogCat.
 
 {% highlight java %}
 Log.d("API_KEY", CoolClass.getSuperSecureKey());
