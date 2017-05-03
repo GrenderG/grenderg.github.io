@@ -33,7 +33,7 @@ adb pull /data/app/org.niceguys.repost-1/base.apk /destination/folder
 ## Decompiling the apk
 
 You need to decompile the apk for two main reasons. First you wanna get `.so` files in order to use them; second you wanna find where are native funcion calls taking
-place in order to know method's name and mimic later the project structure.
+place in order to know methods names and mimic later the project structure.
 
 ### Online
 
