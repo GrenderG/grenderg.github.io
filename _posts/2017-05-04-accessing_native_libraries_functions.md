@@ -18,6 +18,8 @@ I'm assuming you already have the apk, but if not you can use online services li
 
 Alternatively you can download and install the app in your device, then get the location of the apk through adb.
 
+First of all you need to know here the apk is stored.
+
 ```
 adb shell pm path com.niceguys.someapp
 ```
