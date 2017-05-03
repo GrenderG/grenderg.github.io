@@ -3,7 +3,7 @@ layout: post
 title: "Snippet #2. Know if a service is running"
 date: 2015-05-16 17:31:00
 description: Simple way to know if a service is running in Android.
-categories: [programming, snippets]
+categories: [programming, snippets, android]
 permalink: "blog/is-service-running"
 published: true
 ---
