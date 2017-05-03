@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Accessing native libraries' functions in Android"
-date: 2017-05-04 01:00:00
-description: How to access functions inside compiled native libraries in Android.
+title: "Accessing the native methods of a decompiled Android app"
+date: 2017-05-04 01:45:00
+description: How to access to native methods of a decompiled Android application.
 category: programming
-permalink: "blog/accessing_native_libraries_functions"
+permalink: "blog/accessing_native_methods_android"
 published: true
 ---
 
