@@ -8,7 +8,7 @@ permalink: "blog/accessing_native_libraries_functions"
 published: true
 ---
 
-Using native code through JNI is a very common practice in Android development, in fact it's a common practice to store secret keys inside a native library in order
+Using native code through JNI is a very common practice in Android development, in fact it's common to store secret keys inside a native library in order
 to keep them a bit more safe. As I said that practice just difficults the process of getting access to those secrets. Here you will learn how to reverse engineer an
 APK and mimic the original project structure in order to call your victim's app native methods.
 
