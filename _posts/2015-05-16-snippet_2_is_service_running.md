@@ -13,9 +13,12 @@ The second snippet is... -drum roll- How to know if a service is running in Andr
 Check this:
 {% highlight java %}
 public boolean isMyServiceRunning(Class<?> serviceClass) {
-    ActivityManager manager = (ActivityManager) getActivity().getSystemService(Context.ACTIVITY_SERVICE);
-    for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)) {
-        if (serviceClass.getName().equals(service.service.getClassName())) {
+    ActivityManager manager = (ActivityManager) 
+                            getSystemService(Context.ACTIVITY_SERVICE);
+    for (ActivityManager.RunningServiceInfo service : 
+        manager.getRunningServices(Integer.MAX_VALUE)) {
+        if (serviceClass.getName()
+            .equals(service.service.getClassName())) {
             return true;
         }
     }
