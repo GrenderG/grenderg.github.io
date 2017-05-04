@@ -89,7 +89,7 @@ public class CoolClass {
 }
 {% endhighlight %}
 
-You don't need to know that, but the native method would be something like this.
+You don't need to know this, but the native method would be something like this.
 
 {% highlight c %}
 #include <jni.h>
