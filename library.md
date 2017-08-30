@@ -45,5 +45,17 @@ published: true
 		<li><strong>"La igualdad social y política"</strong>, Concepción Arenal. <a href="http://www.mediafire.com/file/jbkp0bijsfe8k84/La_igualdad_social_y_pol%C3%ADtica_-_Concepci%C3%B3n_Arenal.epub">EPUB</a></li>
 		<li><strong>"Cómo podemos expropiar el dinero a las entidades bancarias"</strong>, Núria Güell. <a href="http://www.mediafire.com/file/ttu28e64e6fjivx/C%C3%B3mo_podemos_expropiar_dinero_a_las_entidades_bancarias_-_N%C3%BAria_G%C3%BCell.pdf">PDF</a></li>
 		<li><strong>"El maravilloso viaje de Nils Holgerson"</strong>, Selma Lagerlof. <a href="http://www.mediafire.com/file/d8110n6947o9960/El_maravilloso_viaje_de_Nils_Holgerson_-_Selma_Lagerlof.epub">EPUB</a> <a href="http://www.mediafire.com/file/8rksggtannavurf/El_maravilloso_viaje_de_Nils_Holgerson_-_Selma_Lagerlof.pdf">PDF</a></li>
+        <li><strong>"La caída"</strong>, Albert Camus. <a href="http://www.mediafire.com/file/rfxnol5gtyb9ra3/La_ca%C3%ADda_-_Albert_Camus.epub">EPUB</a></li>
+        <li><strong>"El mito de Sísifo"</strong>, Albert Camus. <a href="http://www.mediafire.com/file/hqhqver82seej7k/El_mito_de_S%C3%ADsifo_-_Albet_Camus.epub">EPUB</a></li>
+        <li><strong>"El extranjero"</strong>, Albert Camus. <a href="http://www.mediafire.com/file/icaaxffkcu14iai/El_extranjero_-_Albert_Camus.epub">EPUB</a></li>
+        <li><strong>"Rayuela"</strong>, Julio Cortázar. <a href="http://www.mediafire.com/file/dvvlh37ff79tnv5/Rayuela_-_Julio_Cort%C3%A1zar.epub">EPUB</a></li>
+        <li><strong>"La condición humana"</strong>, André Malraux. <a href="http://www.mediafire.com/file/84jyo02uhd56s4k/Andr%C3%A9_Malraux_-_La_condici%C3%B3n_humana.epub">EPUB</a></li>
+        <li><strong>"Crónica del pájaro que da cuerda al mundo"</strong>, Haruki Murakami. <a href="http://www.mediafire.com/file/4jubb726veuvni4/Cr%C3%B3nica_del_p%C3%A1jaro_que_da_cuerda_al_mundo_-_Haruki_Murakami.epub">EPUB</a></li>
+        <li><strong>"Juego de tronos"</strong>, George R.R. Martin. <a href="http://www.mediafire.com/file/4xn3qn9k08p8a7v/Juego_de_tronos_-_George_R._R._Martin.epub">EPUB</a></li>
+        <li><strong>"Choque de reyes"</strong>, George R.R. Martin. <a href="http://www.mediafire.com/file/iuvcmvzm4uwfs45/Choque_de_reyes_-_George_R._R._Martin.epub">EPUB</a></li>
+        <li><strong>"Tormenta de espadas"</strong>, George R.R. Martin. <a href="http://www.mediafire.com/file/km667olkd42y263/Tormenta_de_espadas_-_George_R._R._Martin.epub">EPUB</a></li>
+        <li><strong>"Festín de cuervos"</strong>, George R.R. Martin. <a href="http://www.mediafire.com/file/d2iajie9dahehqe/Fest%C3%ADn_de_cuervos_-_George_R._R._Martin.epub">EPUB</a></li>
+        <li><strong>"Danza de dragones"</strong>, George R.R. Martin. <a href="http://www.mediafire.com/file/qbs10b9stelj3x9/Danza_de_dragones_-_George_R._R._Martin.epub">EPUB</a></li>
+        <li><strong>"El caballero de los Siete Reinos"</strong>, George R.R. Martin. <a href="http://www.mediafire.com/file/6jbyqascnnmtcul/El_caballero_de_los_Siete_Reinos_-_George_R._R._Martin.epub">EPUB</a></li>
 	</ul>
 </div>
