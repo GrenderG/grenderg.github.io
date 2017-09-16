@@ -8,7 +8,7 @@ permalink: "blog/caotica_libertad_digital"
 published: true
 ---
 
-Antes de nada, para los puristas, voy a aclarar que cuando hable de Internet en este artículo probablemente esté haciendo referencia a la World Wide Web. Dicho ésto podemos comenzar.
+Antes de nada, para los puristas, voy a aclarar que cuando hable de Internet en este artículo probablemente esté haciendo referencia a la World Wide Web. Dicho esto podemos comenzar.
 
 <img style="    display: block; margin-left: auto; margin-right: auto;" src="/assets/image/gc_domain_closed.png" width="80%" height="80%"/>
 
@@ -16,7 +16,7 @@ Antes de nada, para los puristas, voy a aclarar que cuando hable de Internet en 
 
 Desgraciadamente llevamos viendo desde siempre cómo páginas web son censuradas y cerradas año tras año, en algunos países más que en otros, pero todos tienen esta mancha en su historial. Desde el momento en que contratas tu conexión a Internet con una compañía estás confiando tu actividad en la red a un tercero, que en menor o mayor medida está a expensas de los estados y/o el capital; la cosa se complica más si decides crear una página web para la que contratas un hosting y un dominio, aquí estás subiendo todo el contenido de tu web a las instalaciones de otras personas, además de usar el dominio que te ha proporcionado una empresa registradora (dependiente de la ICANN) sobre el cual, aunque pueda parecer mentira, apenas tienes potestad: si la empresa recibe una orden judicial por la cual dictaminan que deben dar por finalizado tu hosting y/o dominio, lo harán.
 
-¿En qué posición te deja ésto? En la de un mero observador a la espera de ser sentenciado si decides publicar contenidos que no agraden al conglomerado político del momento, como hemos estado viendo en los recientes acontecimientos con la página web del referéndum catalán.
+¿En qué posición te deja esto? En la de un mero observador a la espera de ser sentenciado si decides publicar contenidos que no agraden al conglomerado político del momento, como hemos estado viendo en los recientes acontecimientos con la página web del referéndum catalán.
 
 ## La variedad es algo normal, el caos también
 
@@ -34,4 +34,4 @@ Desde hace años podemos, en cierta medida, palpar lo que sería un Internet sin
 
 Como bien he defendido en todo el artículo el acceso así como el uso de Internet (ahora me estoy refiriendo al conjunto de todos los servicios) debería ser libre y neutral. Ningún tipo de contenido debería ser retirado a los usuarios finales debido simplemente a ideologías o pesquisas gubernamentales; queramos o no tenemos que acostumbrarnos a opiniones que choquen con lo que nosotros pensamos, así pues debemos respetar y defender el pleno derecho a la libertad de expresión. Además, como se suele decir en estos casos: no se le pueden poner vallas al campo; por mucho que se quieran censurar determinadas cosas siempre existirán alternativas para acceder a esa información.
 
-Dicho todo ésto y teniendo en cuenta un, desgraciadamente, utópico Internet en mente en el que ningún contenido debería ser retirado surge un pequeño dilema: ¿Hay algún caso en el que debería ser posible retirar determinadas cosas de la red, o si quiera, existir un método para hacerlo? Está claro que hay delitos que consideramos moralmente más horrendos que otros, ¿qué pasaría si existiese, como ocurre en Tor, páginas web dedicadas a la pornografía infantil, las violaciones o el alquiler de sicarios? ¿Debería existir la forma de parar estos contenidos? Quizá una solución fuese un organismo apolítico, neutral e internacional con potestad para decidir si un contenido puede estar online o no, pero, ¿dónde ponemos la línea?
+Dicho todo esto y teniendo en cuenta un, desgraciadamente, utópico Internet en mente en el que ningún contenido debería ser retirado surge un pequeño dilema: ¿Hay algún caso en el que debería ser posible retirar determinadas cosas de la red, o si quiera, existir un método para hacerlo? Está claro que hay delitos que consideramos moralmente más horrendos que otros, ¿qué pasaría si existiese, como ocurre en Tor, páginas web dedicadas a la pornografía infantil, las violaciones o el alquiler de sicarios? ¿Debería existir la forma de parar estos contenidos? Quizá una solución fuese un organismo apolítico, neutral e internacional con potestad para decidir si un contenido puede estar online o no, pero, ¿dónde ponemos la línea?
