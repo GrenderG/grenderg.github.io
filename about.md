@@ -239,7 +239,7 @@ setTimeout(function () {
 setTimeout(function () {
 	$('.element1').css('display', 'inherit');
     $('.element1').typed({
-        strings: ['I'm just a software developer.'],
+        strings: ['I\'m just a software developer.'],
         typeSpeed: 2,
         backDelay: 750,
         loop: false,
@@ -275,7 +275,7 @@ setTimeout(function () {
 setTimeout(function () {
     $('.element4').css('display', 'inherit');
     $('.element4').typed({
-        strings: ['Anyway, don't be a gossip!.'],
+        strings: ['Anyway, don\'t be a gossip!.'],
         typeSpeed: 7,
         backDelay: 750,
         loop: false,
