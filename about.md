@@ -271,7 +271,7 @@ setTimeout(function () {
         callback: function () {
         }
     });
-}, 8000);
+}, 7500);
 setTimeout(function () {
     $('.element4').css('display', 'inherit');
     $('.element4').typed({
@@ -283,7 +283,7 @@ setTimeout(function () {
         callback: function () {
         }
     });
-}, 10500);
+}, 10000);
 setTimeout(function () {
     $('.element5').css('display', 'inherit');
     $('.element5').typed({
@@ -295,7 +295,7 @@ setTimeout(function () {
         callback: function () {
         }
     });
-  }, 13000);
+  }, 12000);
 setTimeout(function () {
     $('.element6').css('display', 'inherit');
     $('.element6').typed({
@@ -307,7 +307,7 @@ setTimeout(function () {
         callback: function () {
         }
     });
-  }, 14000);
+  }, 12500);
 </script>
 
 <h2><i class="fa fa-user"></i> About Me</h2>
