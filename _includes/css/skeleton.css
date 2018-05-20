@@ -21,7 +21,6 @@
 /* #Base 960 Grid
 ================================================== */
     .mobile-menu {display: none;}
-    #about {height: 216px;}
     #about-stalker {display: none;}
     .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
     .column, .columns                           { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
@@ -78,7 +77,6 @@
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
         .mobile-menu {display: none;}
-        #about {height: 264px;}
         #about-stalker {display: hidden;}
         .container                                  { width: 768px; }
         .container .column,
@@ -132,7 +130,6 @@
 
     @media only screen and (max-width: 767px) {
         .mobile-menu {display: block;}
-        #about {height: 412px;}
         #about-stalker {display: inline;}
         .container { width: 300px; }
         .columns, .column { margin: 0; }
@@ -183,7 +180,6 @@
 
     @media only screen and (min-width: 480px) and (max-width: 767px) {
         .mobile-menu {display: block;}
-        #about {height: 314px;}
         #about-stalker {display: inline;}
         .container { width: 420px; }
         .columns, .column { margin: 0; }
