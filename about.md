@@ -251,7 +251,7 @@ setTimeout(function () {
 setTimeout(function () {
     $('.element2').css('display', 'inherit');
     $('.element2').typed({
-        strings: ['Or maybe I also do freedom and human rights things.'],
+        strings: ['Or maybe I\'m also interested in activism, freedom and human rights stuff.'],
         typeSpeed: 10,
         backDelay: 750,
         loop: false,
@@ -271,7 +271,7 @@ setTimeout(function () {
         callback: function () {
         }
     });
-}, 6000);
+}, 8000);
 setTimeout(function () {
     $('.element4').css('display', 'inherit');
     $('.element4').typed({
@@ -283,7 +283,7 @@ setTimeout(function () {
         callback: function () {
         }
     });
-}, 8500);
+}, 10500);
 setTimeout(function () {
     $('.element5').css('display', 'inherit');
     $('.element5').typed({
@@ -295,7 +295,7 @@ setTimeout(function () {
         callback: function () {
         }
     });
-  }, 9000);
+  }, 13000);
 setTimeout(function () {
     $('.element6').css('display', 'inherit');
     $('.element6').typed({
@@ -307,7 +307,7 @@ setTimeout(function () {
         callback: function () {
         }
     });
-  }, 9500);
+  }, 14000);
 </script>
 
 <h2><i class="fa fa-user"></i> About Me</h2>
