@@ -275,7 +275,7 @@ setTimeout(function () {
 setTimeout(function () {
     $('.element4').css('display', 'inherit');
     $('.element4').typed({
-        strings: ['Anyway, don\'t be a gossip!.'],
+        strings: ['Anyway, don\'t be a gossip!'],
         typeSpeed: 7,
         backDelay: 750,
         loop: false,
