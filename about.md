@@ -247,7 +247,7 @@ setTimeout(function () {
         callback: function () {
         }
     });
-}, 1000);
+}, 1250);
 setTimeout(function () {
     $('.element2').css('display', 'inherit');
     $('.element2').typed({
@@ -259,7 +259,7 @@ setTimeout(function () {
         callback: function () {
         }
     });
-}, 3000);
+}, 3250);
 setTimeout(function () {
     $('.element3').css('display', 'inherit');
     $('.element3').typed({
@@ -283,7 +283,7 @@ setTimeout(function () {
         callback: function () {
         }
     });
-}, 10000);
+}, 9500);
 setTimeout(function () {
     $('.element5').css('display', 'inherit');
     $('.element5').typed({
