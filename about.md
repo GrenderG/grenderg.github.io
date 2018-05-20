@@ -239,7 +239,7 @@ setTimeout(function () {
 setTimeout(function () {
 	$('.element1').css('display', 'inherit');
     $('.element1').typed({
-        strings: ['Hi, I am Daniel Morales, a software developer (Android proficiency) based in Spain.'],
+        strings: ['I'm just a software developer.'],
         typeSpeed: 2,
         backDelay: 750,
         loop: false,
@@ -251,7 +251,7 @@ setTimeout(function () {
 setTimeout(function () {
     $('.element2').css('display', 'inherit');
     $('.element2').typed({
-        strings: ['I got my Associate degree in Multiplatform development (Software Engineering) and then worked as an Android and iOS developer in Mobilendo.'],
+        strings: ['Or maybe I also do freedom and human rights things.'],
         typeSpeed: 10,
         backDelay: 750,
         loop: false,
@@ -259,11 +259,11 @@ setTimeout(function () {
         callback: function () {
         }
     });
-}, 5000);
+}, 3000);
 setTimeout(function () {
     $('.element3').css('display', 'inherit');
     $('.element3').typed({
-        strings: ['After that I studied Computer Engineering for a year...'],
+        strings: ['Or maybe not, who knows...'],
         typeSpeed: 2,
         backDelay: 750,
         loop: false,
@@ -271,11 +271,11 @@ setTimeout(function () {
         callback: function () {
         }
     });
-}, 12000);
+}, 6000);
 setTimeout(function () {
     $('.element4').css('display', 'inherit');
     $('.element4').typed({
-        strings: ['But I\'m currently taking a break as it\'s not required for my work at this moment, so I\'m working as a freelancer.'],
+        strings: ['Anyway, don't be a gossip!.'],
         typeSpeed: 7,
         backDelay: 750,
         loop: false,
@@ -283,7 +283,7 @@ setTimeout(function () {
         callback: function () {
         }
     });
-}, 15000);
+}, 8500);
 setTimeout(function () {
     $('.element5').css('display', 'inherit');
     $('.element5').typed({
@@ -295,7 +295,7 @@ setTimeout(function () {
         callback: function () {
         }
     });
-  }, 20000);
+  }, 9000);
 setTimeout(function () {
     $('.element6').css('display', 'inherit');
     $('.element6').typed({
@@ -307,7 +307,7 @@ setTimeout(function () {
         callback: function () {
         }
     });
-  }, 21000);
+  }, 9500);
 </script>
 
 <h2><i class="fa fa-user"></i> About Me</h2>
