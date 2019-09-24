@@ -12,7 +12,7 @@ published: true
 System.out.println("Hello World!");
 {% endhighlight %}
 
-I'm Daniel Morales and I am so glad to introduce you my fabulous yet simple personal blog. Feel free to do whatever you want here!
+I'm GrenderG and I am so glad to introduce you my fabulous yet simple personal blog. Feel free to do whatever you want here!
 
 This site is powered by [Jekyll](https://github.com/jekyll/jekyll) a blog-aware, static site generator in Ruby.
 
